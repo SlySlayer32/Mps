@@ -659,17 +659,17 @@ Before starting, verify you have access to:
    Example structure:
    | Property Size | Price | Details |
    |---------------|-------|---------|
-   | 1 Bedroom | $[X] | Includes [specifics] |
-   | 2 Bedroom | $[X] | Includes [specifics] |
-   | 3 Bedroom | $[X] | Includes [specifics] |
-   | 4+ Bedroom | Custom Quote | Contact us |
+   | 1 Bedroom | [CONTACT FOR PRICING] | Includes [specifics] |
+   | 2 Bedroom | [CONTACT FOR PRICING] | Includes [specifics] |
+   | 3 Bedroom | [CONTACT FOR PRICING] | Includes [specifics] |
+   | 4+ Bedroom | [QUOTE REQUIRED] | Contact us |
    
    Add-ons:
-   - Carpet steam cleaning: +$[X] per room
-   - Garage/shed cleaning: +$[X]
-   - Wall washing: +$[X] per room
+   - Carpet steam cleaning: [CONTACT FOR PRICING] per room
+   - Garage/shed cleaning: [CONTACT FOR PRICING]
+   - Wall washing: [CONTACT FOR PRICING] per room
    
-   Note: [Insert actual pricing when available]
+   Note: Insert actual pricing when available from business owner
    ```
 
 5. **Guarantee Section** (For End of Lease)

@@ -93,7 +93,7 @@ These guides reference documentation in the parent directory:
 ### Full Build (Following BUILD_GUIDE.md):
 - **DIY (Business Owner):** 6-8 weeks, 10-15 hours/week
 - **Developer (Experienced):** 3-4 weeks, 20-30 hours/week
-- **Agency/Professional:** 2-3 weeks full-time
+- **Agency/Professional:** 2-3 weeks, 40 hours/week
 
 ### Phase Breakdown:
 - **Phase 1 (Foundation):** 1-2 weeks - WordPress, theme, security
