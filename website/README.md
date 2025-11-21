@@ -135,7 +135,7 @@ These guides reference documentation in the parent directory:
 Based on BUILD_GUIDE.md recommendations:
 
 ### Minimal Start: $59-74/year
-- Domain: ~$15/year
+- Domain: $15/year
 - Hosting: $0/year (if using existing IONOS) or $72/year (SiteGround)
 - Amelia Booking: $59/year
 - All other plugins: Free
@@ -351,11 +351,11 @@ A professional, fully-functional WordPress website with:
 ## 📝 Version Information
 
 **Guide Version:** 1.0  
-**Last Updated:** November 2024  
+**Last Updated:** November 2025  
 **Compatible With:** WordPress 6.x, PHP 8.0+  
 **Tested On:** SiteGround, IONOS hosting  
 
-**Next Review:** March 2025 (or when WordPress 7.0 releases)
+**Next Review:** March 2026, or sooner if WordPress 6.8+ introduces breaking changes, or when WordPress 7.0 releases—whichever comes first.
 
 ---
 

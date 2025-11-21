@@ -314,7 +314,7 @@ For each service page:
 
 ## Key URLs to Bookmark
 
-> ⚠️ **Important:** Most URLs below (especially WordPress Admin) will only be accessible after you complete domain setup and WordPress installation in Phase 1. Bookmark them now, but don't try to access them until setup is complete.
+> ⚠️ **Important:** Most URLs below (especially WordPress Admin) will only be accessible after you complete domain setup and WordPress installation in Phase 1. **Note:** After setup, it can take up to 24-48 hours for DNS changes to propagate before these URLs become accessible. Bookmark them now, but don't try to access them until setup is complete and DNS has fully propagated.
 
 **Project-Specific URLs:**
 - WordPress Admin: https://merlinproperty.com.au/wp-admin

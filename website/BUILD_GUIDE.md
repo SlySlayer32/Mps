@@ -72,10 +72,20 @@ Before starting, verify you have access to:
 2. **Configuration during installation:**
    ```
    Site Title: Merlin Property Services
-   Admin Username: [Choose secure username, NOT "admin"]
+   Admin Username: [Choose a secure username. DO NOT use "admin", the business name (e.g., "merlin", "merlinproperty"), the domain name, or common words. See note below.]
    Admin Password: [Use strong password, save in password manager]
    Admin Email: [Use business email]
    ```
+
+   > **Note:** Avoid using easily guessable usernames such as:
+   > - "admin"
+   > - "administrator"
+   > - "merlin"
+   > - "merlinproperty"
+   > - "merlinproperty.com.au"
+   > - "test"
+   > - Any part of your business or domain name
+   > Instead, use a unique username that is not related to your business, domain, or common words.
 
 3. **Access WordPress Admin**
    - URL: https://merlinproperty.com.au/wp-admin
@@ -168,7 +178,7 @@ Before starting, verify you have access to:
      - Choose simple header layout
      - Add navigation menu placeholder
    - Footer:
-     - Add copyright text: "© 2024 Merlin Property Services. All rights reserved."
+     - Add copyright text: "© [Current Year] Merlin Property Services. All rights reserved."
    - Click "Publish"
 
 4. **Elementor Initial Setup**
@@ -1130,6 +1140,109 @@ Before starting, verify you have access to:
 
 ---
 
+### Step 4.4: Cookie Consent Setup
+
+**Objective:** Implement cookie consent for GDPR compliance (required since Google Analytics uses cookies)
+
+**Actions:**
+1. **Install Cookie Consent Plugin**
+   ```
+   Plugins → Add New
+   
+   Recommended Options:
+   
+   Option 1: CookieYes (Free version recommended)
+   - Search: "CookieYes"
+   - Install and activate
+   
+   Option 2: GDPR Cookie Consent (Alternative)
+   - Search: "GDPR Cookie Consent"
+   - Install and activate
+   ```
+
+2. **Configure CookieYes (if chosen)**
+   ```
+   CookieYes → Cookie Banner
+   
+   Basic Settings:
+   - Cookie Banner: Enable
+   - Position: Bottom (recommended)
+   - Design: Choose simple, clean design matching your brand colors
+   
+   Cookie Categories:
+   - Necessary: Always enabled (no consent needed)
+   - Analytics: Enable (Google Analytics)
+   - Enable "Do not track" support
+   
+   Message Text (example):
+   "We use cookies to improve your experience on our website. 
+   By continuing to use this site, you accept our use of cookies."
+   
+   Buttons:
+   - Accept: "Accept All"
+   - Reject: "Reject" (optional but recommended)
+   - Settings: "Cookie Settings"
+   
+   Advanced Settings:
+   - Auto-block Google Analytics until consent
+   - Enable consent log (recommended for compliance)
+   - Set cookie expiry: 365 days
+   ```
+
+3. **Configure GDPR Cookie Consent (if chosen)**
+   ```
+   GDPR Cookie Consent → Settings
+   
+   General Tab:
+   - Enable cookie consent
+   - Choose banner position: Bottom
+   - Select button action: Close on accept
+   
+   Cookie Settings:
+   - Add Google Analytics to cookie list
+   - Category: Analytics
+   - Enable script blocking
+   
+   Customize:
+   - Adjust colors to match brand (#FF9500, #0066CC)
+   - Set button text: "Accept", "Reject", "Settings"
+   ```
+
+4. **Test Cookie Consent**
+   ```
+   1. Clear browser cookies
+   2. Visit website in incognito/private mode
+   3. Verify cookie banner appears on first visit
+   4. Test "Accept" button - banner should disappear
+   5. Verify Google Analytics tracking starts after acceptance
+   6. Test "Reject" button - analytics should be blocked
+   7. Check cookie settings modal works
+   ```
+
+5. **Update Privacy Policy**
+   ```
+   Pages → Privacy Policy → Edit
+   
+   Add section about cookies:
+   - Types of cookies used (Necessary, Analytics)
+   - Purpose of each cookie type
+   - How to manage cookie preferences
+   - Link to cookie settings page/modal
+   - List Google Analytics specifically
+   ```
+
+**Verification Checklist:**
+- [ ] Cookie consent plugin installed and activated
+- [ ] Cookie banner displays on first visit
+- [ ] Accept button works and stores consent
+- [ ] Reject button works and blocks analytics
+- [ ] Cookie settings modal accessible
+- [ ] Google Analytics blocked until consent given
+- [ ] Privacy Policy updated with cookie information
+- [ ] Banner design matches website branding
+
+---
+
 ## Phase 5: Testing and Launch Prep (Week 6-7)
 
 ### Step 5.1: Comprehensive Testing
@@ -1322,7 +1435,23 @@ Before starting, verify you have access to:
    - [ ] Verify CDN active (if using)
    ```
 
-5. **Contact Information Verification**
+5. **Pricing Verification** ⚠️
+   ```
+   CRITICAL: Verify all pricing before launch
+   - [ ] Review all 8 service pages for pricing placeholders
+   - [ ] Confirm "TBD - Call for Quote" has been replaced with actual prices
+   - [ ] Verify pricing accuracy with business owner
+   - [ ] Check pricing tables display correctly on mobile
+   - [ ] Ensure pricing matches any printed materials or quotes
+   - [ ] Add-on pricing is complete and accurate
+   - [ ] Booking system prices (if applicable) match service pages
+   
+   ⚠️ Launching with "TBD" or placeholder pricing can harm credibility.
+   If actual pricing not yet available, consider delaying launch or using
+   "Contact for Quote" with prominent contact information.
+   ```
+
+6. **Contact Information Verification**
    ```
    Triple-check all contact info is correct:
    - [ ] Phone number on Contact page
@@ -1334,7 +1463,7 @@ Before starting, verify you have access to:
    - [ ] Booking notification emails
    ```
 
-6. **Social Media Preparation**
+7. **Social Media Preparation**
    ```
    - [ ] Add social media links if you have accounts
    - [ ] Prepare launch announcement posts
@@ -1347,6 +1476,7 @@ Before starting, verify you have access to:
 - [ ] SEO settings correct for indexing
 - [ ] Full backup completed and verified
 - [ ] Performance optimized
+- [ ] All pricing verified and placeholder text removed
 - [ ] Contact information accurate everywhere
 - [ ] Social media prepared
 
@@ -1680,7 +1810,7 @@ Before considering the build complete, verify:
 ---
 
 **Build Guide Version:** 1.0
-**Last Updated:** November 2024
+**Last Updated:** November 2025
 **Created For:** Merlin Property Services
 **Target Website:** merlinproperty.com.au
 
