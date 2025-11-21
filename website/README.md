@@ -152,7 +152,7 @@ Based on BUILD_GUIDE.md recommendations:
 - Schema Pro: $79/year
 - Setup service: $500 (one-time)
 
-**Note:** These estimates assume existing IONOS hosting.
+**Note:** These estimates assume existing IONOS hosting ($0/year). If using SiteGround (recommended in BUILD_GUIDE.md), add $72/year for hosting to each tier.
 
 ---
 

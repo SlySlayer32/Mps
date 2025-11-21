@@ -659,17 +659,17 @@ Before starting, verify you have access to:
    Example structure:
    | Property Size | Price | Details |
    |---------------|-------|---------|
-   | 1 Bedroom | [CONTACT FOR PRICING] | Includes [specifics] |
-   | 2 Bedroom | [CONTACT FOR PRICING] | Includes [specifics] |
-   | 3 Bedroom | [CONTACT FOR PRICING] | Includes [specifics] |
-   | 4+ Bedroom | [QUOTE REQUIRED] | Contact us |
+   | 1 Bedroom | TBD - Call for Quote | Includes [specifics] |
+   | 2 Bedroom | TBD - Call for Quote | Includes [specifics] |
+   | 3 Bedroom | TBD - Call for Quote | Includes [specifics] |
+   | 4+ Bedroom | Custom Quote Required | Contact us |
    
    Add-ons:
-   - Carpet steam cleaning: [CONTACT FOR PRICING] per room
-   - Garage/shed cleaning: [CONTACT FOR PRICING]
-   - Wall washing: [CONTACT FOR PRICING] per room
+   - Carpet steam cleaning: TBD - Call for Quote per room
+   - Garage/shed cleaning: TBD - Call for Quote
+   - Wall washing: TBD - Call for Quote per room
    
-   Note: Insert actual pricing when available from business owner
+   Note: Replace "TBD - Call for Quote" with actual pricing when provided by business owner
    ```
 
 5. **Guarantee Section** (For End of Lease)
@@ -1680,7 +1680,7 @@ Before considering the build complete, verify:
 
 **Build Guide Version:** 1.0
 **Last Updated:** November 2024
-**Repository:** SlySlayer32/Mps
+**Created For:** Merlin Property Services
 **Target Website:** merlinproperty.com.au
 
 ---
