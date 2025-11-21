@@ -314,9 +314,12 @@ For each service page:
 
 ## Key URLs to Bookmark
 
-**Note:** Most URLs below will be accessible only after completing domain setup and WordPress installation in Phase 1.
+> ⚠️ **Important:** Most URLs below (especially WordPress Admin) will only be accessible after you complete domain setup and WordPress installation in Phase 1. Bookmark them now, but don't try to access them until setup is complete.
 
+**Project-Specific URLs:**
 - WordPress Admin: https://merlinproperty.com.au/wp-admin
+
+**Tool URLs (available immediately):**
 - Google Analytics: https://analytics.google.com
 - Google Search Console: https://search.google.com/search-console
 - Google My Business: https://business.google.com

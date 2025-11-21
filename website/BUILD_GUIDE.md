@@ -654,6 +654,9 @@ Before starting, verify you have access to:
    Section → 1 Column
    Heading: "Pricing"
    
+   ⚠️ IMPORTANT: Replace all "TBD - Call for Quote" placeholders with actual pricing 
+   when provided by business owner before launching the website.
+   
    Add Pricing Table Widget (Elementor) or create custom table:
    
    Example structure:
@@ -668,8 +671,6 @@ Before starting, verify you have access to:
    - Carpet steam cleaning: TBD - Call for Quote per room
    - Garage/shed cleaning: TBD - Call for Quote
    - Wall washing: TBD - Call for Quote per room
-   
-   Note: Replace "TBD - Call for Quote" with actual pricing when provided by business owner
    ```
 
 5. **Guarantee Section** (For End of Lease)

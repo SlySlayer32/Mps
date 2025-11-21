@@ -136,7 +136,7 @@ Based on BUILD_GUIDE.md recommendations:
 
 ### Minimal Start: $59-74/year
 - Domain: ~$15/year
-- Hosting: $0 (IONOS existing) or $72/year
+- Hosting: $0/year (if using existing IONOS) or $72/year (SiteGround)
 - Amelia Booking: $59/year
 - All other plugins: Free
 
