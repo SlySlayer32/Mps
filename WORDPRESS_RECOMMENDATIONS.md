@@ -396,6 +396,46 @@ This document provides detailed recommendations for WordPress themes, plugins, h
 
 ---
 
+### 💰 Most Cost-Effective Approach (Open-Source Focus)
+
+For maximum cost savings using only free/open-source solutions:
+
+**Core Setup** (100% Free):
+1. **Astra Theme** (Free) - Fully featured, no need for Pro
+2. **Elementor** (Free) - Sufficient for most designs
+3. **WPForms Lite** (Free) - Contact forms work perfectly
+4. **Rank Math SEO** (Free) - Complete SEO suite
+5. **Wordfence Security** (Free) - Full security protection
+6. **UpdraftPlus** (Free) - Backup to Google Drive
+7. **Really Simple SSL** (Free) - HTTPS encryption
+8. **Site Kit by Google** (Free) - Analytics built by Google
+
+**Booking System Alternatives** (Free):
+- **Bookly Lite** (Free) - Basic booking functionality (limited to 1 service & 1 staff)
+- **Amelia Lite** (Free trial) - Try before buying
+- **Alternative**: Use **Google Forms** + manual booking via email (100% free)
+- **Alternative**: Use **Calendly Free** (embedded on website)
+
+**Performance** (Free Alternatives):
+- **LiteSpeed Cache** (Free if IONOS supports LiteSpeed)
+- **Autoptimize** (Free) - Minify CSS/JS
+- **ShortPixel** (Free tier: 100 images/month) - Image optimization
+- **WP Super Cache** (Free) - Simple caching solution
+
+**Email** (Free/Low-Cost Alternatives):
+- **IONOS Email** (Often included with hosting) ✅
+- **Zoho Mail** (Free for 1 domain, 5 users)
+- **Gmail with custom domain** (via IONOS email forwarding)
+
+**Total Cost with Free Tools**: $0-15/year (domain only if needed)
+
+**Where to invest if budget allows**:
+1. **Amelia Booking** ($59/year) - Best ROI for booking automation
+2. **WP Rocket** ($59/year) - Significant speed improvement
+3. Professional email if not included with hosting
+
+---
+
 ### Phase 2: Professional Setup (Recommended)
 Everything from Phase 1, plus:
 1. **Amelia Booking** ($59/year) - CRITICAL for business
@@ -456,6 +496,32 @@ Add when business scales:
 - Data center in Australia
 - Local support
 - Good for local SEO
+
+#### 5. **IONOS** (Your Current Host) ✅
+**Best for**: Cost-effective, all-in-one solution
+- Affordable WordPress hosting plans
+- Domain registration included
+- Email hosting available
+- Australian data center options
+- Easy WordPress installation
+- Good for small businesses
+
+**If you're already using IONOS**:
+- ✅ **Keep using it** - No need to switch hosts
+- ✅ Check your plan includes: SSL certificate, daily backups, email accounts
+- ✅ Ensure WordPress one-click installation is available
+- ✅ Verify you have adequate storage and bandwidth for images
+- ✅ Consider upgrading plan if performance becomes an issue
+- ✅ Use IONOS's built-in CDN if available
+
+**IONOS-Specific Tips**:
+- Use their WordPress toolkit for easy management
+- Enable automatic WordPress updates
+- Set up email accounts through their control panel (may be cheaper than Google Workspace)
+- Use their site scanner for security monitoring
+- Take advantage of included SSL certificate
+
+**Link**: https://www.ionos.com/hosting/wordpress-hosting
 
 ---
 
@@ -743,11 +809,12 @@ When ready to accept online payments for bookings:
 - Elementor Pro: $59/year
 - **Total**: ~$372/year (~$31/month)
 
-### Professional Setup (Year 1)
+### Professional Launch Budget (Year 1)
 Everything in Recommended, plus:
 - WPForms Pro: $49/year
 - Schema Pro: $79/year
-- **Total**: ~$500/year (~$42/month)
+- **Total (annual recurring)**: ~$500/year (~$42/month)
+- *Note: This does **not** include a one-time professional setup service. If you wish to include a setup service (typically $500), your first-year total would be ~$1,000 (including setup + annual costs).*
 
 ---
 

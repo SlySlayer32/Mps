@@ -23,13 +23,13 @@ This repository contains comprehensive research, recommendations, and strategy f
 
 ### 2. **FINAL_RECOMMENDATIONS.md** ⭐ START HERE
 **Purpose**: Executive summary with all final recommendations
-**Size**: 23KB - Comprehensive consolidation document
+**Size**: 24KB - Comprehensive consolidation document
 **Key Sections**:
 - ✅ Final illustration selections with rationale
 - ✅ Content structure recommendations
 - ✅ WordPress technical setup (themes, plugins, hosting)
 - ✅ 8-week implementation timeline
-- ✅ Budget breakdown (3 tiers: $146-$500/year)
+- ✅ Budget breakdown (3 tiers: $146-$1,000/year)
 - ✅ Success metrics and KPIs
 - ✅ Risk mitigation strategies
 - ✅ Next steps and approval checklist
@@ -172,14 +172,17 @@ This repository contains comprehensive research, recommendations, and strategy f
 - **Page Builder**: Elementor (free version initially)
 - **Must-Have Plugins**: WPForms, Rank Math SEO, Wordfence, UpdraftPlus, Really Simple SSL
 - **Critical Plugin**: Amelia Booking System ($59/year)
-- **Hosting**: SiteGround StartUp Plan ($6-7/month)
-- **Email**: Google Workspace ($9/month)
+- **Hosting**: IONOS (existing - cost-effective) ✅
+- **Email**: IONOS email (included with hosting) ✅
 
 ### Budget ✅
-**Three options provided**:
-1. **Minimal**: $146/year (~$12/month) - Basic functional site
-2. **Recommended**: $372/year (~$31/month) - Professional launch ⭐
-3. **Professional**: $1,000/year - Includes setup service
+**Four options provided** (using existing IONOS hosting):
+1. **Ultra-Minimal**: $0-15/year (100% free/open-source)
+2. **Minimal**: $59-74/year (~$5-6/month) - With Amelia booking
+3. **Recommended**: $177-192/year (~$15-16/month) - Professional features ⭐
+4. **Professional**: $805-820/year - Includes setup service
+
+*Significant savings by using existing IONOS hosting and email*
 
 ---
 
@@ -195,7 +198,7 @@ This repository contains comprehensive research, recommendations, and strategy f
 - **Body text**: 16px minimum (mobile readability)
 - **Headings**: Clear hierarchy (H1 → H2 → H3)
 - **Paragraphs**: 2-3 sentences maximum
-- **Lists**: Bullet points for scanability
+- **Lists**: Bullet points for scannability
 
 ### Layout Principles
 - **Clean**: No clutter, template feel avoided

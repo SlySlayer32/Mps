@@ -295,38 +295,49 @@ Add these as business scales:
 ---
 
 ### Hosting Recommendation
-**FINAL RECOMMENDATION: SiteGround StartUp Plan**
+**FINAL RECOMMENDATION: IONOS (Your Current Host)** ✅
 
-**Justification**:
-1. **Performance**: SSD storage, NGINX, HTTP/2
-2. **Location**: Sydney data center option (fast for Australian visitors)
-3. **WordPress optimized**: One-click install, automatic updates
-4. **Security**: Free SSL, daily backups, security monitoring
-5. **Support**: 24/7 expert WordPress support
-6. **Email**: Professional email included
-7. **Price**: $3.99-6.99/month (renews at ~$15/month)
-8. **Scalability**: Easy to upgrade as traffic grows
+**Since you're already using IONOS**:
+1. **Keep using it** - No migration needed, saves time and cost
+2. **WordPress hosting**: IONOS offers good WordPress hosting plans
+3. **Cost-effective**: Generally affordable for small businesses
+4. **Email included**: Often includes email hosting (cheaper than Google Workspace)
+5. **SSL certificate**: Should be included in your plan
+6. **Australian presence**: Has data centers in Australia
+7. **Easy setup**: WordPress one-click installation available
 
-**Alternative**: Cloudways ($10/month) for better performance but requires more technical knowledge.
+**Action items with IONOS**:
+- ✅ Verify your plan includes: SSL certificate, daily backups, email accounts
+- ✅ Enable automatic WordPress updates in IONOS control panel
+- ✅ Use IONOS email instead of Google Workspace to save $108/year
+- ✅ Check storage limits for images and media files
+- ✅ Enable any included CDN or caching features
+
+**Alternative if switching**: SiteGround ($3.99-6.99/month) or Cloudways ($10/month) for better performance
 
 **❌ Avoid**: Bluehost, HostGator, GoDaddy (oversold, slow)
 
 ---
 
 ### Email Solution
-**FINAL RECOMMENDATION: Google Workspace**
+**FINAL RECOMMENDATION: IONOS Email (Most Cost-Effective)** ✅
 
-**Cost**: $9 AUD/month per user
-**What you get**: info@merlinproperty.com.au, 30GB storage, mobile apps
+**Cost**: Often included with IONOS hosting or ~$1-2/month
+**What you get**: info@merlinproperty.com.au, email hosting on same platform
 
 **Justification**:
-1. **Professionalism**: Custom domain email builds trust
-2. **Reliability**: 99.9% uptime guarantee
-3. **Familiar interface**: Gmail interface everyone knows
-4. **Mobile access**: iOS/Android apps
-5. **Business tools**: Calendar, Drive included
+1. **Cost savings**: $108/year saved vs Google Workspace
+2. **Convenience**: Same control panel as hosting
+3. **Professionalism**: Custom domain email builds trust
+4. **Integration**: Easy setup with your IONOS domain
+5. **Sufficient features**: Email, webmail access, mobile setup
 
-**Alternative**: Zoho Mail ($1.50 USD/month) - cheaper but less features
+**Premium Alternative if budget allows**:
+- **Google Workspace** ($9 AUD/month) - Best features, Calendar, Drive
+- **Zoho Mail** ($1.50 USD/month) - Good middle ground
+- **Microsoft 365** ($8.50 AUD/month) - Outlook, Office apps
+
+**Recommendation**: Start with IONOS email (free/cheap), upgrade to Google Workspace only if you need advanced features
 
 ---
 
@@ -404,49 +415,76 @@ Add these as business scales:
 
 ## 5. BUDGET BREAKDOWN
 
-### Minimal Launch Budget
+### Ultra-Minimal Launch (100% Free/Open-Source Focus)
 | Item | Cost | Frequency |
 |------|------|-----------|
-| Domain (.com.au) | $15 | Annual |
-| Hosting (SiteGround) | $72 | Annual |
-| Amelia Booking | $59 | Annual |
-| **Total Year 1** | **$146** | - |
-| **Monthly Average** | **~$12** | - |
+| Domain (if not owned) | $0-15 | Annual |
+| Hosting (IONOS - existing) | $0* | Included |
+| Email (IONOS - included) | $0* | Included |
+| Astra Theme (Free) | $0 | Free |
+| Elementor (Free) | $0 | Free |
+| All plugins (Free versions) | $0 | Free |
+| Bookly Lite or Google Forms | $0 | Free |
+| **Total Year 1** | **$0-15** | - |
 
-**What's included**: Fully functional website with booking system
-**What's missing**: Professional email, advanced features
+*Assuming you already have IONOS hosting with domain and email
+
+**What's included**: Fully functional website with free booking alternative
+**Trade-off**: Manual booking management, no advanced features
+**Best for**: Testing concept before investing
 
 ---
 
-### Recommended Launch Budget
+### Minimal Launch Budget (Single Paid Plugin)
 | Item | Cost | Frequency |
 |------|------|-----------|
-| Domain | $15 | Annual |
-| Hosting | $72 | Annual |
-| Google Workspace | $108 | Annual |
+| Domain (if needed) | $0-15 | Annual |
+| Hosting (IONOS - existing) | $0* | Included |
+| Email (IONOS - included) | $0* | Included |
+| Amelia Booking | $59 | Annual |
+| All other plugins (Free) | $0 | Free |
+| **Total Year 1** | **$59-74** | - |
+| **Monthly Average** | **~$5-6** | - |
+
+*Assuming existing IONOS hosting with domain and email
+
+**What's included**: Professional booking system, functional website
+**What's missing**: Premium performance optimization, advanced design features
+
+---
+
+### Recommended Launch Budget (Cost-Effective Professional)
+| Item | Cost | Frequency |
+|------|------|-----------|
+| Domain (if needed) | $0-15 | Annual |
+| Hosting (IONOS - existing) | $0* | Included |
+| Email (IONOS - included) | $0* | Included |
 | Amelia Booking | $59 | Annual |
 | WP Rocket | $59 | Annual |
 | Elementor Pro | $59 | Annual |
-| **Total Year 1** | **$372** | - |
-| **Monthly Average** | **~$31** | - |
+| **Total Year 1** | **$177-192** | - |
+| **Monthly Average** | **~$15-16** | - |
 
-**What's included**: Professional website with booking, optimized performance, professional email
-**Recommendation**: This is the sweet spot for launching professionally
+*Using existing IONOS hosting saves $180/year vs new hosting + Google Workspace
+
+**What's included**: Professional website with booking, optimized performance, advanced design
+**Recommendation**: Best balance of cost and professional features with IONOS hosting
 
 ---
 
 ### Professional Launch Budget
 | Item | Cost | Frequency |
 |------|------|-----------|
-| All Recommended items | $372 | Annual |
+| All Recommended items | $177-192 | Annual |
 | WPForms Pro | $49 | Annual |
 | Schema Pro | $79 | Annual |
 | Professional setup service* | $500 | One-time |
-| **Total Year 1** | **$1,000** | - |
+| **Total Year 1** | **$805-820** | - |
 
 *Optional: Hire freelancer for initial setup and training
 
-**Who this is for**: If you want hands-off professional setup
+**Who this is for**: If you want hands-off professional setup with all premium features
+**Note**: Using IONOS hosting saves $180/year vs alternatives
 
 ---
 
