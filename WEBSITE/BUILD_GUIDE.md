@@ -15,11 +15,11 @@ Before starting, verify you have access to:
 - [ ] Business information (pricing, contact details, service areas)
 
 **Reference Documents in Repository:**
-- `../README.md` - Business requirements
-- `../FINAL_RECOMMENDATIONS.md` - Complete strategy overview
-- `../CONTENT_STRATEGY.md` - Page content and structure
-- `../WORDPRESS_RECOMMENDATIONS.md` - Technical setup details
-- `../SELECTED_ILLUSTRATIONS.md` - Image resources
+- `README.md` - Business requirements
+- `FINAL_RECOMMENDATIONS.md` - Complete strategy overview
+- `CONTENT_STRATEGY.md` - Page content and structure
+- `WORDPRESS_RECOMMENDATIONS.md` - Technical setup details
+- `../Materials/SELECTED_ILLUSTRATIONS.md` - Image resources
 
 ---
 
@@ -447,7 +447,7 @@ Before starting, verify you have access to:
    ```
 
 2. **Download Illustrations from Pixabay**
-   - Reference: `../SELECTED_ILLUSTRATIONS.md` for specific links
+   - Reference: `../Materials/SELECTED_ILLUSTRATIONS.md` for specific links
    - Download 2 illustrations already identified (in repository)
    - Search and download illustrations for:
      - Hero section (landing page)
@@ -493,8 +493,8 @@ Before starting, verify you have access to:
 
 **Objective:** Build engaging homepage with card-based layout
 
-**Reference:** `../CONTENT_STRATEGY.md` for content
-**Reference:** `../README.md` for design requirements
+**Reference:** `CONTENT_STRATEGY.md` for content
+**Reference:** `README.md` for design requirements
 
 **Actions:**
 1. **Edit Home Page with Elementor**
@@ -619,7 +619,7 @@ Before starting, verify you have access to:
 
 **Objective:** Create detailed service pages with pricing
 
-**Reference:** `../CONTENT_STRATEGY.md` - See detailed End of Lease Cleaning example
+**Reference:** `CONTENT_STRATEGY.md` - See detailed End of Lease Cleaning example
 
 **Template Structure for Each Service Page:**
 
@@ -1674,10 +1674,10 @@ Before starting, verify you have access to:
 ## Important Resources
 
 ### Documentation References
-- Main strategy: `../FINAL_RECOMMENDATIONS.md`
-- Content templates: `../CONTENT_STRATEGY.md`
-- Technical details: `../WORDPRESS_RECOMMENDATIONS.md`
-- Visual assets: `../SELECTED_ILLUSTRATIONS.md`
+- Main strategy: `FINAL_RECOMMENDATIONS.md`
+- Content templates: `CONTENT_STRATEGY.md`
+- Technical details: `WORDPRESS_RECOMMENDATIONS.md`
+- Visual assets: `../Materials/SELECTED_ILLUSTRATIONS.md`
 
 ### Essential Links
 - WordPress Codex: https://codex.wordpress.org/

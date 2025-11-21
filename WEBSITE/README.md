@@ -71,20 +71,20 @@ This folder contains comprehensive guides for building the Merlin Property Servi
 
 ## 📚 Supporting Documentation
 
-These guides reference documentation in the parent directory:
+These guides reference documentation in this directory:
 
 ### Business & Strategy:
-- **../README.md** - Original business requirements and vision
-- **../FINAL_RECOMMENDATIONS.md** - Complete strategy and recommendations
-- **../INDEX.md** - Documentation navigation guide
+- **README.md** - Original business requirements and vision
+- **FINAL_RECOMMENDATIONS.md** - Complete strategy and recommendations
+- **INDEX.md** - Documentation navigation guide
 
 ### Content & Design:
-- **../CONTENT_STRATEGY.md** - Detailed content for all pages
-- **../SELECTED_ILLUSTRATIONS.md** - Image resources and links
-- **../ILLUSTRATION_CATALOG.md** - Image organization system
+- **CONTENT_STRATEGY.md** - Detailed content for all pages
+- **../Materials/SELECTED_ILLUSTRATIONS.md** - Image resources and links
+- **../Materials/ILLUSTRATION_CATALOG.md** - Image organization system
 
 ### Technical Details:
-- **../WORDPRESS_RECOMMENDATIONS.md** - Plugin details, hosting, technical setup
+- **WORDPRESS_RECOMMENDATIONS.md** - Plugin details, hosting, technical setup
 
 ---
 
@@ -231,14 +231,14 @@ Make sure you have:
 - Post in Elementor community
 
 **Content Questions:**
-- Reference ../CONTENT_STRATEGY.md
+- Reference CONTENT_STRATEGY.md
 - Use provided templates
 - Ask business owner for specific details
 - Hire content writer if needed ($50-200)
 
 **Design Decisions:**
-- Reference ../README.md for requirements
-- Follow examples in ../SELECTED_ILLUSTRATIONS.md
+- Reference README.md for requirements
+- Follow examples in ../Materials/SELECTED_ILLUSTRATIONS.md
 - Use Elementor template library
 - Hire designer for custom work ($200-500)
 
