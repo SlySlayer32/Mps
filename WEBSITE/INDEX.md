@@ -4,6 +4,13 @@
 
 This repository contains comprehensive research, recommendations, and strategy for building the Merlin Property Services WordPress website. All documentation has been reviewed and finalized for implementation.
 
+## 📂 Repository Structure
+
+All website documentation is now consolidated in the `WEBSITE` folder. Supporting materials (illustrations, catalogs) are located in the `Materials` folder:
+
+- **WEBSITE/** - All website documentation, guides, and strategies
+- **Materials/** - Illustration catalogs and resources
+
 ---
 
 ## 📁 Documentation Structure
@@ -38,7 +45,7 @@ This repository contains comprehensive research, recommendations, and strategy f
 
 ---
 
-### 3. **ILLUSTRATION_CATALOG.md** - Illustration Organization System
+### 3. **Materials/ILLUSTRATION_CATALOG.md** - Illustration Organization System
 **Purpose**: Comprehensive guide to organizing illustrations
 **Size**: 5.4KB
 **Key Information**:
@@ -53,7 +60,7 @@ This repository contains comprehensive research, recommendations, and strategy f
 
 ---
 
-### 4. **SELECTED_ILLUSTRATIONS.md** - Specific Illustration Links
+### 4. **Materials/SELECTED_ILLUSTRATIONS.md** - Specific Illustration Links
 **Purpose**: Direct links to recommended illustrations
 **Size**: 6.2KB
 **Key Information**:
@@ -140,7 +147,7 @@ This repository contains comprehensive research, recommendations, and strategy f
 2. **Reference**: `FINAL_RECOMMENDATIONS.md` - Overall strategy
 3. **Technical**: `WORDPRESS_RECOMMENDATIONS.md` - Setup instructions
 4. **Content**: `CONTENT_STRATEGY.md` - Page content and structure
-5. **Assets**: `ILLUSTRATION_CATALOG.md` + `SELECTED_ILLUSTRATIONS.md` - Download illustrations
+5. **Assets**: `../Materials/ILLUSTRATION_CATALOG.md` + `../Materials/SELECTED_ILLUSTRATIONS.md` - Download illustrations
 
 ### For Content Writer:
 
@@ -340,7 +347,7 @@ This documentation satisfies all requirements from the original issue:
 
 **Total Documentation**: 7 files, ~74KB of detailed recommendations
 
-**Last Updated**: November 2024
+**Last Updated**: November 2025
 
 **Prepared For**: Merlin Property Services (@SlySlayer32)
 
@@ -350,9 +357,9 @@ This documentation satisfies all requirements from the original issue:
 
 **Initial Research** (Prior work):
 - README.md - Business requirements documented
-- ILLUSTRATION_CATALOG.md - Illustration organization system
-- SELECTED_ILLUSTRATIONS.md - Specific illustration links
-- illustration.source - Source links
+- Materials/ILLUSTRATION_CATALOG.md - Illustration organization system
+- Materials/SELECTED_ILLUSTRATIONS.md - Specific illustration links
+- Materials/illustration.source - Source links
 
 **Latest Updates** (Current session):
 - ✅ CONTENT_STRATEGY.md - Complete content guide (18KB)

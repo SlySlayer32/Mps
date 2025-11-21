@@ -332,10 +332,10 @@ For each service page:
 
 For detailed instructions, see:
 - **BUILD_GUIDE.md** - Complete step-by-step guide
-- **../FINAL_RECOMMENDATIONS.md** - Strategy overview
-- **../CONTENT_STRATEGY.md** - Page content templates
-- **../WORDPRESS_RECOMMENDATIONS.md** - Plugin details
-- **../SELECTED_ILLUSTRATIONS.md** - Image resources
+- **FINAL_RECOMMENDATIONS.md** - Strategy overview
+- **CONTENT_STRATEGY.md** - Page content templates
+- **WORDPRESS_RECOMMENDATIONS.md** - Plugin details
+- **../Materials/SELECTED_ILLUSTRATIONS.md** - Image resources
 
 ---
 
