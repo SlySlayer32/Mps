@@ -1,7 +1,53 @@
 # AI Assistant Build Guide - Merlin Property Services Website
 
 ## Purpose
-This guide is designed for AI assistants to build the Merlin Property Services WordPress website from scratch. It provides step-by-step instructions with specific commands, verification steps, and references to existing documentation.
+This guide is designed for AI assistants (including GitHub Copilot coding agents) to build the Merlin Property Services WordPress website from scratch. It provides step-by-step instructions with specific commands, verification steps, and references to existing documentation.
+
+## How to Use This Guide (For AI Agents)
+
+**If you are GitHub Copilot or another AI coding agent**, you can execute this guide autonomously by following these principles:
+
+### Execution Approach
+1. **Read Prerequisites First** - Ensure all required access/credentials are available from the user
+2. **Follow Phases Sequentially** - Complete Phase 1 before Phase 2, etc.
+3. **Use Verification Checklists** - After each step, verify it worked before proceeding
+4. **Reference Other Documentation**:
+   - Pull content from `CONTENT_STRATEGY.md`
+   - Get business info from `README.md`
+   - Use images from `../Materials/SELECTED_ILLUSTRATIONS.md`
+5. **Test Continuously** - Don't wait until the end; test after each major step
+6. **Request Human Input When Needed**:
+   - Actual pricing (marked as TBD in docs)
+   - Real phone numbers, addresses, email addresses
+   - Hosting credentials and access
+   - Business owner preferences for design choices
+
+### What You CAN Do Autonomously
+- Navigate WordPress admin interfaces
+- Install and configure plugins
+- Create pages and add content from documentation
+- Configure settings based on specifications
+- Run tests and verification steps
+- Optimize performance
+- Set up SEO configurations
+
+### What REQUIRES Human Input
+- ❌ Domain registration (requires payment and verification)
+- ❌ Hosting account setup (requires payment)
+- ❌ Real business contact information (phone, email, address)
+- ❌ Actual pricing numbers (business decision)
+- ❌ Payment gateway credentials (Stripe, PayPal keys)
+- ❌ Final approval before launch
+
+### Recommended Workflow for AI Agents
+```
+Phase 1: Foundation (Human sets up hosting) → AI configures WordPress
+Phase 2: Core Functionality → AI installs and configures all plugins
+Phase 3: Design & Content → AI builds all pages using CONTENT_STRATEGY.md
+Phase 4: SEO & Optimization → AI handles all technical optimization
+Phase 5: Testing → AI runs all tests and reports results
+Phase 6: Launch Prep → Human approves, AI executes launch
+```
 
 ---
 
