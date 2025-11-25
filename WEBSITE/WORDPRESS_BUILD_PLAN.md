@@ -420,30 +420,37 @@ Amelia → Services → Add Service
 
 Service 1: End of Lease Cleaning
 - Duration: 4 hours
-- Price: [TBD or actual price]
+- Price: From $220 (see CONTENT_STRATEGY.md for full pricing table)
 - Description: [from CONTENT_STRATEGY.md]
 - Category: Cleaning Services
 
 Service 2: Move In Cleaning
 - Duration: 3 hours
+- Price: From $200
 
 Service 3: Commercial Cleaning
 - Duration: Varies
+- Price: From $80 (custom quotes for larger spaces)
 
 Service 4: Pre-sale Cleaning
 - Duration: 3 hours
+- Price: From $300
 
 Service 5: Gardening Services
 - Duration: 2 hours
+- Price: From $45/hour
 
 Service 6: Carpet Cleaning
 - Duration: 2 hours
+- Price: From $50/room
 
 Service 7: Window Cleaning
 - Duration: 2 hours
+- Price: From $8/window
 
 Service 8: Minor Maintenance
 - Duration: 2 hours
+- Price: $55/hour
 ```
 
 #### Configure Employee
@@ -680,11 +687,12 @@ Section 3: Pricing
 - Table widget or Pricing Table:
   | Property Size | Price | Details |
   |---------------|-------|---------|
-  | 1 Bedroom | $XXX | Includes... |
-  | 2 Bedroom | $XXX | Includes... |
-  | 3 Bedroom | $XXX | Includes... |
+  | 1 Bedroom | From $220 | Interior cleaning |
+  | 2 Bedroom | From $280 | Interior cleaning |
+  | 3 Bedroom | From $380 | Interior cleaning |
   | 4+ Bedroom | Custom Quote | Contact us |
   
+  Note: Reference CONTENT_STRATEGY.md for complete pricing tables
   Add-ons listed below table
 
 Section 4: Guarantee (End of Lease only)
@@ -1060,7 +1068,7 @@ Backup:
 
 Content:
 - [ ] Contact info correct everywhere
-- [ ] Pricing accurate or marked TBD
+- [ ] Pricing accurate (use example prices from CONTENT_STRATEGY.md or actual business prices)
 - [ ] No spelling errors
 ```
 
@@ -1092,7 +1100,7 @@ Content:
 Name: End of Lease Cleaning
 Category: Cleaning Services
 Duration: 4-8 hours
-Price: [Set actual price or "Quote"]
+Price: From $220 (1 bedroom) to $450+ (4+ bedroom)
 Description: Get your full bond back with our comprehensive end of lease cleaning service. 100% bond back guarantee.
 
 What's Included:
@@ -1102,12 +1110,19 @@ What's Included:
 - Windows inside
 - Wall spot cleaning
 - Final inspection ready
+
+Pricing Reference (from CONTENT_STRATEGY.md):
+- 1 Bedroom Apartment: $220 interior, $280 with exterior, $380 complete
+- 2 Bedroom Apartment: $280 interior, $360 with exterior, $480 complete
+- 3 Bedroom House: $380 interior, $500 with exterior, $680 complete
+- 4 Bedroom House: $450 interior, $590 with exterior, $820 complete
 ```
 
 #### Service 2: Move In Cleaning
 ```
 Name: Move In Cleaning
 Duration: 3-6 hours
+Price: From $200 (typically 10-15% less than end of lease)
 Description: Start fresh in a professionally cleaned home. Deep clean and sanitize before you unpack.
 
 What's Included:
@@ -1122,6 +1137,7 @@ What's Included:
 ```
 Name: Commercial Cleaning
 Duration: Varies
+Price: From $80/visit (small office), $150/visit (medium), Custom (large)
 Description: Keep your workplace clean, healthy, and professional.
 
 What's Included:
@@ -1136,6 +1152,7 @@ What's Included:
 ```
 Name: Pre-sale Cleaning
 Duration: 3-6 hours
+Price: From $300 (includes presentation package)
 Description: Make your property shine for inspections and photos.
 
 What's Included:
@@ -1149,6 +1166,7 @@ What's Included:
 ```
 Name: Gardening Services
 Duration: 2-4 hours
+Price: From $45/hour, or $60/hour for full maintenance
 Description: Complete garden care and maintenance.
 
 What's Included:
@@ -1163,6 +1181,7 @@ What's Included:
 ```
 Name: Carpet Cleaning
 Duration: 2-4 hours
+Price: From $50/room
 Description: Deep steam cleaning for carpets and rugs.
 
 What's Included:
@@ -1176,6 +1195,7 @@ What's Included:
 ```
 Name: Window Cleaning
 Duration: 2-4 hours
+Price: From $8/window (inside & out)
 Description: Crystal clear windows inside and out.
 
 What's Included:
@@ -1190,6 +1210,7 @@ What's Included:
 ```
 Name: Minor Maintenance
 Duration: 2+ hours
+Price: $55/hour (1 hour minimum)
 Description: Small repairs and handyman services.
 
 What's Included:
