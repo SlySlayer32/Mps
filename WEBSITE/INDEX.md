@@ -4,6 +4,10 @@
 
 This repository contains comprehensive research, recommendations, and strategy for building the Merlin Property Services WordPress website. All documentation has been reviewed and finalized for implementation.
 
+## ⭐ Start Here: WORDPRESS_BUILD_PLAN.md
+
+**The consolidated WordPress Build Plan is the primary implementation document.** It combines all requirements into a single, actionable guide specifically designed for WordPress on IONOS hosting. See [WORDPRESS_BUILD_PLAN.md](./WORDPRESS_BUILD_PLAN.md) for the complete build plan.
+
 ## 📂 Repository Structure
 
 All website documentation is now consolidated in the `WEBSITE` folder. Supporting materials (illustrations, catalogs) are located in the `Materials` folder:
@@ -15,7 +19,26 @@ All website documentation is now consolidated in the `WEBSITE` folder. Supportin
 
 ## 📁 Documentation Structure
 
-### 1. **README.md** - Business Requirements
+### 1. **WORDPRESS_BUILD_PLAN.md** ⭐ PRIMARY IMPLEMENTATION GUIDE
+**Purpose**: Consolidated build plan for WordPress on IONOS hosting
+**Size**: ~32KB - Complete implementation guide
+**Key Sections**:
+- ✅ Business requirements summary
+- ✅ Technical stack (Astra + Elementor + IONOS)
+- ✅ Complete page structure (13 pages)
+- ✅ Design specifications with layouts
+- ✅ WordPress plugin requirements (tiered)
+- ✅ Phase-by-phase build instructions
+- ✅ Service configurations for Amelia
+- ✅ SEO & performance optimization
+- ✅ Testing & launch checklists
+- ✅ Post-launch maintenance
+
+**👉 This is your primary document for building the website.**
+
+---
+
+### 2. **README.md** - Business Requirements
 **Purpose**: Original business vision and requirements
 **Key Information**:
 - Business type: Sole trader cleaning business
@@ -28,7 +51,7 @@ All website documentation is now consolidated in the `WEBSITE` folder. Supportin
 
 ---
 
-### 2. **FINAL_RECOMMENDATIONS.md** ⭐ START HERE
+### 3. **FINAL_RECOMMENDATIONS.md** - Executive Summary
 **Purpose**: Executive summary with all final recommendations
 **Size**: 24KB - Comprehensive consolidation document
 **Key Sections**:
@@ -41,11 +64,11 @@ All website documentation is now consolidated in the `WEBSITE` folder. Supportin
 - ✅ Risk mitigation strategies
 - ✅ Next steps and approval checklist
 
-**👉 This is your main reference document for implementation.**
+**Reference document for strategy and recommendations.**
 
 ---
 
-### 3. **Materials/ILLUSTRATION_CATALOG.md** - Illustration Organization System
+### 4. **Materials/ILLUSTRATION_CATALOG.md** - Illustration Organization System
 **Purpose**: Comprehensive guide to organizing illustrations
 **Size**: 5.4KB
 **Key Information**:
@@ -60,7 +83,7 @@ All website documentation is now consolidated in the `WEBSITE` folder. Supportin
 
 ---
 
-### 4. **Materials/SELECTED_ILLUSTRATIONS.md** - Specific Illustration Links
+### 5. **Materials/SELECTED_ILLUSTRATIONS.md** - Specific Illustration Links
 **Purpose**: Direct links to recommended illustrations
 **Size**: 6.2KB
 **Key Information**:
@@ -74,7 +97,7 @@ All website documentation is now consolidated in the `WEBSITE` folder. Supportin
 
 ---
 
-### 5. **CONTENT_STRATEGY.md** - Complete Content Strategy
+### 6. **CONTENT_STRATEGY.md** - Complete Content Strategy
 **Purpose**: Detailed content for all website pages
 **Size**: 18KB - Most detailed content guide
 **Key Sections**:
@@ -92,7 +115,7 @@ All website documentation is now consolidated in the `WEBSITE` folder. Supportin
 
 ---
 
-### 6. **WORDPRESS_RECOMMENDATIONS.md** - Technical Implementation Guide
+### 7. **WORDPRESS_RECOMMENDATIONS.md** - Technical Implementation Guide
 **Purpose**: Complete technical setup instructions
 **Size**: 20KB - Most technical document
 **Key Sections**:
@@ -118,7 +141,7 @@ All website documentation is now consolidated in the `WEBSITE` folder. Supportin
 
 ---
 
-### 7. **illustration.source** - Quick Links
+### 8. **illustration.source** - Quick Links
 **Purpose**: Quick reference to illustration sources
 **Size**: 185 bytes
 **Content**: Links to 4 illustration websites:
@@ -135,26 +158,22 @@ All website documentation is now consolidated in the `WEBSITE` folder. Supportin
 
 ### For Project Owner/Business Owner:
 
-1. **Read**: `FINAL_RECOMMENDATIONS.md` - Get overview of everything
+1. **Read**: `WORDPRESS_BUILD_PLAN.md` - Complete implementation guide
 2. **Decide**: Choose your budget level (Minimal/Recommended/Professional)
-3. **Approve**: Review and approve final recommendations
-4. **Provide**: Add actual pricing, contact details, service area
-5. **Implement**: Follow 8-week timeline or hire help
+3. **Provide**: Actual pricing, contact details, service area
+4. **Implement**: Follow phased timeline or hire help
 
 ### For Web Developer/Designer:
 
-1. **Review**: `README.md` - Understand business requirements
-2. **Reference**: `FINAL_RECOMMENDATIONS.md` - Overall strategy
-3. **Technical**: `WORDPRESS_RECOMMENDATIONS.md` - Setup instructions
-4. **Content**: `CONTENT_STRATEGY.md` - Page content and structure
-5. **Assets**: `../Materials/ILLUSTRATION_CATALOG.md` + `../Materials/SELECTED_ILLUSTRATIONS.md` - Download illustrations
+1. **Primary**: `WORDPRESS_BUILD_PLAN.md` - Step-by-step build instructions
+2. **Content**: `CONTENT_STRATEGY.md` - Page content and structure
+3. **Assets**: `../Materials/SELECTED_ILLUSTRATIONS.md` - Download illustrations
 
-### For Content Writer:
+### For AI Agents/Assistants:
 
-1. **Context**: `README.md` - Business background
-2. **Strategy**: `CONTENT_STRATEGY.md` - Complete writing guide
-3. **SEO**: Check SEO keywords section in Content Strategy
-4. **Reference**: `FINAL_RECOMMENDATIONS.md` - Approved tone and voice
+1. **Follow**: `WORDPRESS_BUILD_PLAN.md` - Complete build guide
+2. **Reference**: `BUILD_GUIDE.md` - Detailed step-by-step instructions
+3. **Content**: `CONTENT_STRATEGY.md` - All page content
 
 ---
 

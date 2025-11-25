@@ -2,9 +2,36 @@
 
 This folder contains comprehensive guides for building the Merlin Property Services website.
 
+## ⭐ Start Here: WORDPRESS_BUILD_PLAN.md
+
+The **WORDPRESS_BUILD_PLAN.md** is the primary, consolidated build plan for creating the Merlin Property Services website using WordPress plugins on IONOS hosting. It addresses all pages, designs, and services required.
+
 ## 📁 Files in This Folder
 
-### 1. **BUILD_GUIDE.md** (Main Guide) ⭐
+### 1. **WORDPRESS_BUILD_PLAN.md** (Primary Build Plan) ⭐
+**Purpose:** Consolidated build plan specifically for WordPress on IONOS hosting.
+
+**Size:** ~32KB - Complete implementation guide  
+**Audience:** Business owners, developers, AI assistants  
+**Time to Complete:** 6-7 weeks following the guide
+
+**Contains:**
+- Business requirements summary
+- Technical stack (Astra + Elementor + IONOS)
+- Complete page structure (13 pages)
+- Design specifications with layouts
+- WordPress plugin requirements (tiered)
+- Phase-by-phase build instructions (5 phases)
+- Service configurations for Amelia booking
+- SEO & performance optimization
+- Testing & launch checklists
+- Post-launch maintenance
+
+**Start here for:** Building the complete WordPress website.
+
+---
+
+### 2. **BUILD_GUIDE.md** (Detailed Technical Guide)
 **Purpose:** Complete step-by-step instructions for AI assistants to build the WordPress website from scratch.
 
 **Size:** 45KB - Most comprehensive guide  
@@ -21,11 +48,11 @@ This folder contains comprehensive guides for building the Merlin Property Servi
 - SEO setup instructions
 - Post-launch maintenance schedules
 
-**Start here if:** You're building the website from scratch or want detailed technical instructions.
+**Use as:** Detailed reference alongside WORDPRESS_BUILD_PLAN.md.
 
 ---
 
-### 2. **QUICK_CHECKLIST.md** (Quick Reference)
+### 3. **QUICK_CHECKLIST.md** (Quick Reference)
 **Purpose:** Condensed checklist version for quick progress tracking.
 
 **Size:** 8KB - Quick reference  
@@ -46,26 +73,31 @@ This folder contains comprehensive guides for building the Merlin Property Servi
 
 ## 🎯 How to Use These Guides
 
+### For Business Owners:
+1. Read WORDPRESS_BUILD_PLAN.md to understand the complete plan
+2. Provide required information (pricing, contact details, service areas)
+3. Choose budget tier (Minimal/Recommended/Professional)
+4. Use QUICK_CHECKLIST.md to track progress
+
 ### For AI Assistants:
-1. Read BUILD_GUIDE.md from start to finish
-2. Follow each phase in order
-3. Use QUICK_CHECKLIST.md to track completion
-4. Reference parent directory documentation as needed
+1. Start with WORDPRESS_BUILD_PLAN.md for consolidated instructions
+2. Reference BUILD_GUIDE.md for detailed technical steps
+3. Use QUICK_CHECKLIST.md to verify completion
+4. Get content from CONTENT_STRATEGY.md
 5. Don't skip security or testing steps
 
 ### For Human Developers:
-1. Review QUICK_CHECKLIST.md first to understand scope
-2. Use BUILD_GUIDE.md as detailed reference
-3. Customize based on your workflow
-4. Reference parent directory for content and strategy
+1. Review WORDPRESS_BUILD_PLAN.md for the complete implementation plan
+2. Use BUILD_GUIDE.md for detailed reference
+3. Use QUICK_CHECKLIST.md to track progress
+4. Reference CONTENT_STRATEGY.md for page content
 5. Test thoroughly at each phase
 
 ### For Project Managers:
 1. Use QUICK_CHECKLIST.md for sprint planning
-2. Track progress against weekly goals
-3. Reference BUILD_GUIDE.md for task estimates
-4. Monitor success metrics section
-5. Review pre-build requirements for stakeholder input
+2. Track progress against phases in WORDPRESS_BUILD_PLAN.md
+3. Monitor success metrics section
+4. Review pre-build requirements for stakeholder input
 
 ---
 
@@ -73,8 +105,10 @@ This folder contains comprehensive guides for building the Merlin Property Servi
 
 These guides reference documentation in this directory:
 
+### Primary Implementation:
+- **WORDPRESS_BUILD_PLAN.md** ⭐ - Consolidated build plan for IONOS hosting
+
 ### Business & Strategy:
-- **README.md** - Original business requirements and vision
 - **FINAL_RECOMMENDATIONS.md** - Complete strategy and recommendations
 - **INDEX.md** - Documentation navigation guide
 
@@ -85,6 +119,7 @@ These guides reference documentation in this directory:
 
 ### Technical Details:
 - **WORDPRESS_RECOMMENDATIONS.md** - Plugin details, hosting, technical setup
+- **BUILD_GUIDE.md** - Detailed step-by-step technical instructions
 
 ---
 
