@@ -343,7 +343,7 @@ Add customer reviews and testimonials to build trust and increase conversions.
 - **Why Use It:** Simple interface for non-technical users.
 
 #### 4. WP Social Ninja
-- **Website:** Search "WP Social Ninja" on [wordpress.org/plugins](https://wordpress.org/plugins/)
+- **Website:** [wordpress.org/plugins/wp-social-reviews](https://wordpress.org/plugins/wp-social-reviews/)
 - **Best For:** Social media integration
 - **Free Features:**
   - Social review feeds
