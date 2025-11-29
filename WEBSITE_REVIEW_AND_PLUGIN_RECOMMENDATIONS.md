@@ -199,7 +199,7 @@ These plugins will enable customers to book services directly on the website, re
 - **Why Use It:** One of the oldest and most reliable booking plugins with a large user base.
 
 #### 3. Simply Schedule Appointments
-- **Website:** [wordpress.org/plugins/developer-developer](https://wordpress.org/plugins/developer-developer/)
+- **Website:** [wordpress.org/plugins/simply-schedule-appointments](https://wordpress.org/plugins/simply-schedule-appointments/)
 - **Best For:** Simple appointment scheduling
 - **Free Features:**
   - Drag-and-drop setup
@@ -209,7 +209,7 @@ These plugins will enable customers to book services directly on the website, re
 - **Why Use It:** Very user-friendly, great for businesses new to online booking.
 
 #### 4. Easy Appointments
-- **Website:** [wordpress.org/plugins/developer-developer](https://wordpress.org/plugins/developer-developer/)
+- **Website:** [wordpress.org/plugins/easy-appointments](https://wordpress.org/plugins/easy-appointments/)
 - **Best For:** Multiple services and locations
 - **Free Features:**
   - Multiple services, locations, workers
@@ -255,7 +255,7 @@ Enhance the existing contact form functionality with better spam protection, val
 - **Why Use It:** More advanced features in the free version compared to others.
 
 #### 4. HubSpot Forms
-- **Website:** [wordpress.org/plugins/developer-developer](https://wordpress.org/plugins/developer-developer/)
+- **Website:** [wordpress.org/plugins/leadin](https://wordpress.org/plugins/leadin/)
 - **Best For:** CRM integration
 - **Free Features:**
   - Contact forms with CRM
@@ -283,7 +283,7 @@ Improve search engine visibility and attract more local customers in Canberra an
 - **Why Use It:** Industry standard for WordPress SEO, excellent for local business optimization.
 
 #### 2. Rank Math
-- **Website:** [wordpress.org/plugins/developer-developer](https://wordpress.org/plugins/developer-developer/)
+- **Website:** [wordpress.org/plugins/seo-by-rank-math](https://wordpress.org/plugins/seo-by-rank-math/)
 - **Best For:** Power users wanting more free features
 - **Free Features:**
   - Advanced SEO analysis
@@ -295,7 +295,7 @@ Improve search engine visibility and attract more local customers in Canberra an
 - **Why Use It:** More features in the free version than most competitors.
 
 #### 3. All in One SEO (AIOSEO)
-- **Website:** [wordpress.org/plugins/developer-developer](https://wordpress.org/plugins/developer-developer/)
+- **Website:** [wordpress.org/plugins/all-in-one-seo-pack](https://wordpress.org/plugins/all-in-one-seo-pack/)
 - **Best For:** Beginners and WooCommerce sites
 - **Free Features:**
   - SEO setup wizard
@@ -322,7 +322,7 @@ Add customer reviews and testimonials to build trust and increase conversions.
 - **Why Use It:** Perfect for showcasing customer satisfaction and bond-back guarantee success stories.
 
 #### 2. Site Reviews
-- **Website:** [wordpress.org/plugins/developer-developer](https://wordpress.org/plugins/developer-developer/)
+- **Website:** [wordpress.org/plugins/site-reviews](https://wordpress.org/plugins/site-reviews/)
 - **Best For:** Collecting and displaying reviews
 - **Free Features:**
   - Review collection forms
@@ -333,7 +333,7 @@ Add customer reviews and testimonials to build trust and increase conversions.
 - **Why Use It:** Allows customers to submit reviews directly on the website.
 
 #### 3. Strong Testimonials
-- **Website:** [wordpress.org/plugins/developer-developer](https://wordpress.org/plugins/developer-developer/)
+- **Website:** [wordpress.org/plugins/strong-testimonials](https://wordpress.org/plugins/strong-testimonials/)
 - **Best For:** Easy testimonial management
 - **Free Features:**
   - Customizable templates
@@ -343,7 +343,7 @@ Add customer reviews and testimonials to build trust and increase conversions.
 - **Why Use It:** Simple interface for non-technical users.
 
 #### 4. WP Social Ninja
-- **Website:** [wordpress.org/plugins/developer-developer](https://wordpress.org/plugins/developer-developer/)
+- **Website:** Search "WP Social Ninja" on [wordpress.org/plugins](https://wordpress.org/plugins/)
 - **Best For:** Social media integration
 - **Free Features:**
   - Social review feeds
@@ -359,7 +359,7 @@ Add customer reviews and testimonials to build trust and increase conversions.
 Showcase before/after photos, completed work, and team images.
 
 #### 1. NextGEN Gallery ⭐ **Recommended**
-- **Website:** [wordpress.org/plugins/developer-developer](https://wordpress.org/plugins/developer-developer/)
+- **Website:** [wordpress.org/plugins/nextgen-gallery](https://wordpress.org/plugins/nextgen-gallery/)
 - **Best For:** Professional photo galleries
 - **Free Features:**
   - Multiple gallery types (thumbnail, slideshow, album)
@@ -370,7 +370,7 @@ Showcase before/after photos, completed work, and team images.
 - **Why Use It:** Industry standard for WordPress galleries, perfect for before/after cleaning photos.
 
 #### 2. Envira Gallery Lite
-- **Website:** [wordpress.org/plugins/developer-developer](https://wordpress.org/plugins/developer-developer/)
+- **Website:** [wordpress.org/plugins/envira-gallery-lite](https://wordpress.org/plugins/envira-gallery-lite/)
 - **Best For:** Drag-and-drop gallery creation
 - **Free Features:**
   - Responsive galleries
@@ -380,7 +380,7 @@ Showcase before/after photos, completed work, and team images.
 - **Why Use It:** Very user-friendly for beginners.
 
 #### 3. FooGallery
-- **Website:** [wordpress.org/plugins/developer-developer](https://wordpress.org/plugins/developer-developer/)
+- **Website:** [wordpress.org/plugins/foogallery](https://wordpress.org/plugins/foogallery/)
 - **Best For:** Fast-loading galleries
 - **Free Features:**
   - Multiple layouts
@@ -396,7 +396,7 @@ Showcase before/after photos, completed work, and team images.
 #### Live Chat & Customer Support
 
 **1. Tawk.to Live Chat** ⭐ Free
-- **Website:** [wordpress.org/plugins/developer-developer](https://wordpress.org/plugins/developer-developer/)
+- **Website:** [wordpress.org/plugins/tawkto-live-chat](https://wordpress.org/plugins/tawkto-live-chat/)
 - **Features:** Completely free live chat, mobile app, visitor monitoring
 - **Why Use It:** Allow customers to ask questions in real-time, perfect for urgent booking inquiries.
 
@@ -417,7 +417,7 @@ Showcase before/after photos, completed work, and team images.
 #### Google Maps Integration
 
 **1. WP Google Maps**
-- **Website:** [wordpress.org/plugins/developer-developer](https://wordpress.org/plugins/developer-developer/)
+- **Website:** [wordpress.org/plugins/wp-google-maps](https://wordpress.org/plugins/wp-google-maps/)
 - **Free Features:** 
   - Embed Google Maps
   - Custom markers
