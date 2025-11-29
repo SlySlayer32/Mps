@@ -290,16 +290,21 @@ function mps_get_service_pricing($service_slug) {
     $pricing = array(
         'end-of-lease-cleaning' => array(
             'tiers' => array(
-                array('size' => '1 Bedroom Apartment', 'interior' => '$220', 'interior_exterior' => '$280', 'complete' => '$380'),
-                array('size' => '2 Bedroom Apartment', 'interior' => '$280', 'interior_exterior' => '$360', 'complete' => '$480'),
-                array('size' => '2 Bedroom House', 'interior' => '$320', 'interior_exterior' => '$420', 'complete' => '$560'),
-                array('size' => '3 Bedroom House', 'interior' => '$380', 'interior_exterior' => '$500', 'complete' => '$680'),
-                array('size' => '4+ Bedroom House', 'interior' => '$450', 'interior_exterior' => '$590', 'complete' => '$820'),
+                array('size' => '1 Bedroom / 1 Bathroom', 'price' => '$450'),
+                array('size' => '2 Bedroom / 1 Bathroom', 'price' => '$550'),
+                array('size' => '2 Bedroom / 2 Bathroom', 'price' => '$650'),
+                array('size' => '3 Bedroom / 2 Bathroom', 'price' => '$750'),
+                array('size' => '4 Bedroom / 2 Bathroom', 'price' => '$850'),
             ),
             'addons' => array(
-                array('name' => 'Carpet Steam Cleaning', 'price' => 'From $50/room'),
-                array('name' => 'Garage/Shed Cleaning', 'price' => '$80-150'),
-                array('name' => 'Wall Washing', 'price' => '$90/room'),
+                array('name' => 'Carpet Steam Cleaning', 'price' => 'From $150'),
+                array('name' => 'Garden & Lawn Maintenance', 'price' => 'Quote on request'),
+                array('name' => 'Pest Control Coordination', 'price' => 'We can arrange'),
+            ),
+            'special_offers' => array(
+                array('name' => 'Early Bird Discount', 'description' => 'Book 2+ weeks in advance and save an extra 10%'),
+                array('name' => 'Referral Bonus', 'description' => 'Refer a friend and you both receive $50 off your next clean'),
+                array('name' => 'Combo Deal', 'description' => 'End of lease + carpet cleaning together: Save $50!'),
             ),
         ),
         'gardening-services' => array(

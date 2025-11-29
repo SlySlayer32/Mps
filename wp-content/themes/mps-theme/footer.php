@@ -7,7 +7,7 @@
                 <a href="<?php echo esc_url(home_url('/')); ?>" class="footer-logo">
                     <span class="footer-logo-text">Merlin<span>PS</span></span>
                 </a>
-                <p>Complete property care for Melbourne homes and businesses. From move-out to move-in, we handle every detail so you don't have to.</p>
+                <p>Complete property care for Canberra and Queanbeyan homes and businesses. From move-out to move-in, we handle every detail so you don't have to.</p>
                 <div class="footer-social">
                     <a href="#" class="social-link" aria-label="Facebook">
                         <?php mps_icon('facebook'); ?>
@@ -54,7 +54,7 @@
                     </li>
                     <li>
                         <?php mps_icon('map-pin'); ?>
-                        <span>Melbourne, Victoria<br>Australia</span>
+                        <span>Canberra & Queanbeyan<br>ACT / NSW</span>
                     </li>
                     <li>
                         <?php mps_icon('clock'); ?>

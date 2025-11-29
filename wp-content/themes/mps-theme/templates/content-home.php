@@ -15,9 +15,9 @@ $services = mps_get_services();
         <div class="hero-content">
             <span class="hero-badge">
                 <?php mps_icon('star'); ?>
-                Melbourne's Trusted Property Care
+                Canberra's Trusted Property Care
             </span>
-            <h1>Complete Property Care for <span>Melbourne</span> Homes &amp; Businesses</h1>
+            <h1>Complete Property Care for <span>Canberra &amp; Queanbeyan</span> Homes &amp; Businesses</h1>
             <p class="hero-description">From move-out to move-in, we handle every detail so you don't have to. Professional cleaning, gardening, and maintenance services with our 100% satisfaction guarantee.</p>
             <div class="hero-buttons">
                 <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="btn btn-primary btn-lg">Get a Quote</a>

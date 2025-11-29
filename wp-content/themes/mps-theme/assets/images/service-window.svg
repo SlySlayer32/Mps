@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none">
+  <!-- Background -->
+  <circle cx="250" cy="200" r="180" fill="#E6F4FF" opacity="0.8"/>
+  
+  <!-- Window Frame -->
+  <g transform="translate(120, 50)">
+    <rect x="0" y="0" width="260" height="300" fill="#FFFFFF" stroke="#8B4513" stroke-width="10"/>
+    <!-- Window panes -->
+    <rect x="15" y="15" width="105" height="130" fill="#87CEEB" stroke="#8B4513" stroke-width="5"/>
+    <rect x="140" y="15" width="105" height="130" fill="#87CEEB" stroke="#8B4513" stroke-width="5"/>
+    <rect x="15" y="155" width="105" height="130" fill="#87CEEB" stroke="#8B4513" stroke-width="5"/>
+    <rect x="140" y="155" width="105" height="130" fill="#87CEEB" stroke="#8B4513" stroke-width="5"/>
+    <!-- Sparkle effects on glass -->
+    <g fill="white" opacity="0.8">
+      <polygon points="50,50 55,60 65,60 57,67 60,77 50,70 40,77 43,67 35,60 45,60"/>
+      <polygon points="180,80 183,87 190,87 185,92 187,99 180,94 173,99 175,92 170,87 177,87" transform="scale(0.8)"/>
+      <polygon points="80,200 83,207 90,207 85,212 87,219 80,214 73,219 75,212 70,207 77,207" transform="scale(0.7)"/>
+    </g>
+  </g>
+  
+  <!-- Squeegee -->
+  <g transform="translate(50, 150)">
+    <rect x="0" y="0" width="8" height="150" fill="#8B4513"/>
+    <rect x="-25" y="150" width="60" height="15" rx="3" fill="#0066CC"/>
+    <rect x="-25" y="165" width="60" height="5" fill="#333"/>
+  </g>
+  
+  <!-- Spray bottle -->
+  <g transform="translate(400, 200)">
+    <rect x="10" y="30" width="40" height="80" rx="5" fill="#4DB8E8"/>
+    <rect x="20" y="10" width="20" height="25" fill="#0066CC"/>
+    <rect x="5" y="15" width="15" height="8" fill="#0066CC"/>
+    <!-- Spray droplets -->
+    <circle cx="0" cy="30" r="3" fill="#4DB8E8" opacity="0.6"/>
+    <circle cx="-10" cy="40" r="2" fill="#4DB8E8" opacity="0.6"/>
+    <circle cx="-5" cy="50" r="2.5" fill="#4DB8E8" opacity="0.6"/>
+  </g>
+  
+  <!-- Sun reflection -->
+  <circle cx="200" cy="100" r="25" fill="#FFD700" opacity="0.3"/>
+</svg>
