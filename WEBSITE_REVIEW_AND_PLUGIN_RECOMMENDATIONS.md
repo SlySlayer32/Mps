@@ -54,7 +54,7 @@
    - Adding real reviews would significantly increase conversions
 
 3. **Footer Copyright Year**
-   - Shows "© 2024" - should be dynamically updated or changed to 2025
+   - Shows "© 2024" - should be dynamically updated or changed to current year
 
 ---
 
@@ -480,5 +480,5 @@ All recommended plugins are free and specifically chosen to be relevant to prope
 
 ---
 
-*Document prepared: November 2024*
+*Document prepared: November 2025*
 *For: Merlin Property Services Website Improvement Project*
