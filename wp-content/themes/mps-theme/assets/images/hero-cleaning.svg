@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="none">
+  <!-- Background Circle -->
+  <circle cx="250" cy="250" r="200" fill="#FFF5E6" opacity="0.8"/>
+  
+  <!-- Cleaning Person -->
+  <g transform="translate(150, 80)">
+    <!-- Head -->
+    <circle cx="100" cy="50" r="40" fill="#FFD9B3"/>
+    <!-- Hair -->
+    <path d="M60 45 Q60 15 100 10 Q140 15 140 45 Q140 35 100 30 Q60 35 60 45" fill="#4A3728"/>
+    <!-- Face features -->
+    <circle cx="85" cy="45" r="4" fill="#333"/>
+    <circle cx="115" cy="45" r="4" fill="#333"/>
+    <path d="M90 65 Q100 75 110 65" stroke="#333" stroke-width="2" fill="none"/>
+    
+    <!-- Body -->
+    <rect x="70" y="90" width="60" height="100" rx="10" fill="#FF9500"/>
+    <!-- Arms -->
+    <rect x="40" y="100" width="30" height="70" rx="10" fill="#FF9500"/>
+    <rect x="130" y="100" width="30" height="70" rx="10" fill="#FF9500"/>
+    
+    <!-- Hands -->
+    <circle cx="45" cy="180" r="15" fill="#FFD9B3"/>
+    <circle cx="155" cy="180" r="15" fill="#FFD9B3"/>
+    
+    <!-- Legs -->
+    <rect x="75" y="190" width="20" height="80" rx="8" fill="#0066CC"/>
+    <rect x="105" y="190" width="20" height="80" rx="8" fill="#0066CC"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="85" cy="275" rx="18" ry="10" fill="#333"/>
+    <ellipse cx="115" cy="275" rx="18" ry="10" fill="#333"/>
+  </g>
+  
+  <!-- Mop -->
+  <g transform="translate(280, 150)">
+    <rect x="0" y="0" width="8" height="180" fill="#8B4513"/>
+    <rect x="-30" y="180" width="68" height="60" rx="5" fill="#6C757D"/>
+    <path d="M-25 240 L-25 280 M-15 240 L-15 285 M-5 240 L-5 280 M5 240 L5 285 M15 240 L15 280 M25 240 L25 285 M35 240 L35 280" stroke="#4DB8E8" stroke-width="6"/>
+  </g>
+  
+  <!-- Bucket -->
+  <g transform="translate(320, 350)">
+    <path d="M0 30 L20 100 L100 100 L120 30 Z" fill="#4DB8E8"/>
+    <ellipse cx="60" cy="30" rx="60" ry="15" fill="#0066CC"/>
+    <path d="M30 10 Q60 -20 90 10" stroke="#6C757D" stroke-width="6" fill="none"/>
+  </g>
+  
+  <!-- Sparkles -->
+  <g fill="#FF9500">
+    <path d="M80 120 L85 130 L95 130 L87 137 L90 147 L80 140 L70 147 L73 137 L65 130 L75 130 Z" transform="scale(0.8)"/>
+    <path d="M420 80 L425 90 L435 90 L427 97 L430 107 L420 100 L410 107 L413 97 L405 90 L415 90 Z" transform="scale(0.7)"/>
+    <path d="M100 400 L105 410 L115 410 L107 417 L110 427 L100 420 L90 427 L93 417 L85 410 L95 410 Z" transform="scale(0.6)"/>
+  </g>
+  
+  <!-- Bubbles -->
+  <circle cx="380" cy="200" r="15" fill="#4DB8E8" opacity="0.6"/>
+  <circle cx="400" cy="170" r="10" fill="#4DB8E8" opacity="0.4"/>
+  <circle cx="420" cy="210" r="8" fill="#4DB8E8" opacity="0.5"/>
+  <circle cx="120" cy="350" r="12" fill="#4DB8E8" opacity="0.5"/>
+  <circle cx="140" cy="380" r="8" fill="#4DB8E8" opacity="0.4"/>
+</svg>
