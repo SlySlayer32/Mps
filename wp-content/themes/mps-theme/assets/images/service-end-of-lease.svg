@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none">
+  <!-- Background -->
+  <circle cx="250" cy="200" r="180" fill="#FFF5E6" opacity="0.8"/>
+  
+  <!-- House -->
+  <g transform="translate(80, 80)">
+    <!-- Roof -->
+    <path d="M170 0 L340 100 L0 100 Z" fill="#FF9500"/>
+    <!-- House body -->
+    <rect x="40" y="100" width="260" height="180" fill="#FFFFFF" stroke="#0066CC" stroke-width="3"/>
+    <!-- Door -->
+    <rect x="130" y="180" width="60" height="100" fill="#0066CC"/>
+    <circle cx="175" cy="235" r="5" fill="#FFD700"/>
+    <!-- Windows -->
+    <rect x="70" y="130" width="50" height="50" fill="#4DB8E8" stroke="#0066CC" stroke-width="2"/>
+    <rect x="220" y="130" width="50" height="50" fill="#4DB8E8" stroke="#0066CC" stroke-width="2"/>
+    <line x1="95" y1="130" x2="95" y2="180" stroke="#0066CC" stroke-width="2"/>
+    <line x1="70" y1="155" x2="120" y2="155" stroke="#0066CC" stroke-width="2"/>
+    <line x1="245" y1="130" x2="245" y2="180" stroke="#0066CC" stroke-width="2"/>
+    <line x1="220" y1="155" x2="270" y2="155" stroke="#0066CC" stroke-width="2"/>
+  </g>
+  
+  <!-- Sparkles representing cleaning -->
+  <g fill="#FF9500">
+    <path d="M380 100 L385 115 L400 115 L388 125 L393 140 L380 130 L367 140 L372 125 L360 115 L375 115 Z"/>
+    <path d="M420 180 L423 190 L433 190 L425 197 L428 207 L420 200 L412 207 L415 197 L407 190 L417 190 Z" transform="scale(0.8)"/>
+    <path d="M140 60 L145 75 L160 75 L148 85 L153 100 L140 90 L127 100 L132 85 L120 75 L135 75 Z" transform="scale(0.7)"/>
+  </g>
+  
+  <!-- Key with checkmark badge -->
+  <g transform="translate(350, 250)">
+    <circle cx="40" cy="40" r="35" fill="#4DB8E8"/>
+    <path d="M25 40 L35 50 L55 30" stroke="white" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Bond back guarantee badge -->
+  <g transform="translate(50, 300)">
+    <ellipse cx="60" cy="30" rx="55" ry="25" fill="#FF9500"/>
+    <text x="60" y="35" text-anchor="middle" fill="white" font-family="Arial" font-size="12" font-weight="bold">100% BOND</text>
+  </g>
+</svg>

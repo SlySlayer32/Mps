@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none">
+  <!-- Background -->
+  <circle cx="250" cy="200" r="180" fill="#FFF5E6" opacity="0.8"/>
+  
+  <!-- House -->
+  <g transform="translate(100, 80)">
+    <!-- Roof -->
+    <path d="M150 0 L300 80 L0 80 Z" fill="#FF9500"/>
+    <!-- House body -->
+    <rect x="30" y="80" width="240" height="160" fill="#FFFFFF" stroke="#FF9500" stroke-width="3"/>
+    <!-- Door -->
+    <rect x="120" y="140" width="60" height="100" fill="#0066CC"/>
+    <circle cx="165" cy="195" r="4" fill="#FFD700"/>
+    <!-- Windows -->
+    <rect x="50" y="110" width="50" height="50" fill="#4DB8E8" stroke="#0066CC" stroke-width="2"/>
+    <rect x="200" y="110" width="50" height="50" fill="#4DB8E8" stroke="#0066CC" stroke-width="2"/>
+  </g>
+  
+  <!-- FOR SALE Sign -->
+  <g transform="translate(350, 150)">
+    <rect x="0" y="0" width="8" height="150" fill="#8B4513"/>
+    <rect x="-40" y="0" width="100" height="60" fill="#FF9500" rx="5"/>
+    <text x="10" y="25" text-anchor="middle" fill="white" font-family="Arial" font-size="11" font-weight="bold">FOR</text>
+    <text x="10" y="45" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">SALE</text>
+  </g>
+  
+  <!-- Sparkles representing clean -->
+  <g fill="#FF9500">
+    <path d="M80 150 L85 165 L100 165 L88 175 L93 190 L80 180 L67 190 L72 175 L60 165 L75 165 Z" transform="scale(0.6)"/>
+    <path d="M180 60 L185 75 L200 75 L188 85 L193 100 L180 90 L167 100 L172 85 L160 75 L175 75 Z" transform="scale(0.5)"/>
+    <path d="M320 100 L325 115 L340 115 L328 125 L333 140 L320 130 L307 140 L312 125 L300 115 L315 115 Z" transform="scale(0.5)"/>
+  </g>
+  
+  <!-- Camera icon for photos -->
+  <g transform="translate(50, 280)">
+    <rect x="10" y="20" width="60" height="40" rx="5" fill="#0066CC"/>
+    <circle cx="40" cy="40" r="12" fill="#4DB8E8"/>
+    <rect x="30" y="10" width="20" height="12" rx="2" fill="#0066CC"/>
+  </g>
+</svg>
