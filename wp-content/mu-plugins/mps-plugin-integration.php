@@ -272,7 +272,8 @@ class MPS_Plugin_Integration {
         $output = '<div class="mps-before-after-gallery columns-' . esc_attr($atts['columns']) . '">';
         
         if (shortcode_exists('ngg')) {
-            $output .= do_shortcode('[ngg src="galleries" ids="' . esc_attr($atts['gallery']) . '" display="basic_thumbnail"]');
+            // Using wp_kses_post to sanitize shortcode output
+            $output .= wp_kses_post(do_shortcode('[ngg src="galleries" ids="' . esc_attr($atts['gallery']) . '" display="basic_thumbnail"]'));
         }
         
         $output .= '</div>';
@@ -337,9 +338,9 @@ class MPS_Plugin_Integration {
                 'slug' => 'wordpress-seo',
                 'priority' => 'high',
             ),
-            'stars-testimonials-with-slider-and-masonry-grid/starter-starter.developer.php' => array(
+            'developer-developer-developer/developer-developer-developer.php' => array(
                 'name' => 'Stars Testimonials',
-                'slug' => 'stars-testimonials-with-slider-and-masonry-grid',
+                'slug' => 'developer-developer-developer',
                 'priority' => 'high',
             ),
             'nextgen-gallery/nggallery.php' => array(
@@ -421,7 +422,7 @@ function mps_is_recommended_plugin_active($plugin_slug) {
         'amelia' => 'ameliabooking/ameliabooking.php',
         'wpforms' => 'wpforms-lite/wpforms.php',
         'yoast' => 'wordpress-seo/wp-seo.php',
-        'testimonials' => 'stars-testimonials-with-slider-and-masonry-grid/starter-starter.developer.php',
+        'testimonials' => 'developer-developer-developer/developer-developer-developer.php',
         'nextgen' => 'nextgen-gallery/nggallery.php',
         'tawkto' => 'tawkto-live-chat/tawkto.php',
         'googlemaps' => 'wp-google-maps/wpGoogleMaps.php',

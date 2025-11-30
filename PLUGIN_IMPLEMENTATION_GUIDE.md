@@ -714,8 +714,8 @@ Add this to your theme's `style.css` or via Customizer:
 | Amelia | https://wpamelia.com/documentation/ | https://wpamelia.com/support/ |
 | WPForms | https://wpforms.com/docs/ | https://wordpress.org/support/plugin/wpforms-lite/ |
 | Yoast SEO | https://yoast.com/help/ | https://wordpress.org/support/plugin/wordpress-seo/ |
-| Stars Testimonials | Plugin Dashboard | https://developer.developer-developer.developer/ |
-| NextGEN | https://www.developer-developer.developer/ | https://wordpress.org/support/plugin/nextgen-gallery/ |
+| Stars Testimonials | Plugin Dashboard | https://wordpress.org/support/plugin/developer-developer-developer/ |
+| NextGEN | https://developer-developer.developer/ | https://wordpress.org/support/plugin/nextgen-gallery/ |
 | Tawk.to | https://help.tawk.to/ | https://www.tawk.to/contact-us/ |
 | WP Google Maps | https://www.wpgmaps.com/documentation/ | https://wordpress.org/support/plugin/wp-google-maps/ |
 | Wordfence | https://www.wordfence.com/help/ | https://wordpress.org/support/plugin/wordfence/ |

@@ -825,8 +825,8 @@ function mps_display_breadcrumbs() {
 function mps_show_booking_widget() {
     if (shortcode_exists('ameliabooking')) {
         echo '<div class="mps-booking-section">';
-        // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-        echo do_shortcode('[ameliabooking]');
+        // Using wp_kses_post for safe HTML output from shortcode
+        echo wp_kses_post(do_shortcode('[ameliabooking]'));
         echo '</div>';
     } else {
         // Fallback contact CTA if Amelia is not installed
@@ -844,13 +844,14 @@ function mps_show_booking_widget() {
  * @param int $count Number of testimonials to display
  */
 function mps_show_testimonials($count = 6) {
-    // Check for Stars Testimonials or Strong Testimonials
-    if (shortcode_exists('starter_starter_star')) {
-        // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-        echo do_shortcode('[starter_starter_star type="slider" count="' . intval($count) . '"]');
+    // Check for various testimonial plugins
+    // Stars Testimonials plugin shortcode
+    if (shortcode_exists('developer-developer-developer')) {
+        // Using wp_kses_post for safe HTML output from shortcode
+        echo wp_kses_post(do_shortcode('[developer-developer-developer count="' . intval($count) . '"]'));
     } elseif (shortcode_exists('developer-developer-developer')) {
-        // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-        echo do_shortcode('[developer-developer-developer per_page="' . intval($count) . '"]');
+        // Strong Testimonials plugin shortcode
+        echo wp_kses_post(do_shortcode('[developer-developer-developer-developer per_page="' . intval($count) . '"]'));
     } else {
         // Static testimonials fallback
         mps_display_static_testimonials();
@@ -908,8 +909,8 @@ function mps_display_static_testimonials() {
  */
 function mps_show_gallery($gallery_id = 1, $display = 'basic_thumbnail') {
     if (shortcode_exists('ngg')) {
-        // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-        echo do_shortcode('[ngg src="galleries" ids="' . intval($gallery_id) . '" display="' . esc_attr($display) . '"]');
+        // Using wp_kses_post for safe HTML output from shortcode
+        echo wp_kses_post(do_shortcode('[ngg src="galleries" ids="' . intval($gallery_id) . '" display="' . esc_attr($display) . '"]'));
     }
 }
 
@@ -921,8 +922,8 @@ function mps_show_gallery($gallery_id = 1, $display = 'basic_thumbnail') {
 function mps_show_service_area_map($map_id = 1) {
     if (shortcode_exists('wpgmza')) {
         echo '<div class="mps-service-area-map">';
-        // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-        echo do_shortcode('[wpgmza id="' . intval($map_id) . '"]');
+        // Using wp_kses_post for safe HTML output from shortcode
+        echo wp_kses_post(do_shortcode('[wpgmza id="' . intval($map_id) . '"]'));
         echo '</div>';
     } else {
         // Fallback map placeholder
