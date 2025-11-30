@@ -736,3 +736,332 @@ function mps_get_service_content($slug) {
     
     return isset($content[$slug]) ? $content[$slug] : array();
 }
+
+/**
+ * Plugin Compatibility and Integration
+ * 
+ * These functions provide integration with recommended plugins:
+ * - Amelia Lite (Booking)
+ * - WPForms Lite (Contact Forms)
+ * - Yoast SEO (SEO)
+ * - Stars Testimonials (Reviews)
+ * - NextGEN Gallery (Photo Gallery)
+ * - Tawk.to (Live Chat)
+ * - WP Google Maps (Maps)
+ * - Wordfence Security (Security)
+ * - LiteSpeed Cache (Performance)
+ */
+
+/**
+ * Register widget areas for plugin content
+ */
+function mps_register_plugin_widget_areas() {
+    // Booking widget area
+    register_sidebar(array(
+        'name'          => __('Booking Widget Area', 'mps-theme'),
+        'id'            => 'booking-widget',
+        'description'   => __('Widget area for Amelia booking integration.', 'mps-theme'),
+        'before_widget' => '<div id="%1$s" class="widget booking-widget %2$s">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ));
+
+    // Quote form widget area
+    register_sidebar(array(
+        'name'          => __('Quote Form Widget Area', 'mps-theme'),
+        'id'            => 'quote-form-widget',
+        'description'   => __('Widget area for WPForms quote request form.', 'mps-theme'),
+        'before_widget' => '<div id="%1$s" class="widget quote-form-widget %2$s">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ));
+
+    // Testimonials widget area
+    register_sidebar(array(
+        'name'          => __('Testimonials Widget Area', 'mps-theme'),
+        'id'            => 'testimonials-widget',
+        'description'   => __('Widget area for testimonials display.', 'mps-theme'),
+        'before_widget' => '<div id="%1$s" class="widget testimonials-widget %2$s">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ));
+
+    // Service area map widget
+    register_sidebar(array(
+        'name'          => __('Service Area Map Widget', 'mps-theme'),
+        'id'            => 'map-widget',
+        'description'   => __('Widget area for Google Maps service area display.', 'mps-theme'),
+        'before_widget' => '<div id="%1$s" class="widget map-widget %2$s">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ));
+}
+add_action('widgets_init', 'mps_register_plugin_widget_areas');
+
+/**
+ * Add theme support for Yoast SEO breadcrumbs
+ */
+function mps_yoast_breadcrumb_support() {
+    add_theme_support('yoast-seo-breadcrumbs');
+}
+add_action('after_setup_theme', 'mps_yoast_breadcrumb_support');
+
+/**
+ * Display Yoast SEO breadcrumbs
+ */
+function mps_display_breadcrumbs() {
+    if (function_exists('yoast_breadcrumb')) {
+        yoast_breadcrumb('<nav class="mps-breadcrumbs" aria-label="Breadcrumb">', '</nav>');
+    }
+}
+
+/**
+ * Check if Amelia booking plugin is active and display booking widget
+ */
+function mps_show_booking_widget() {
+    if (shortcode_exists('ameliabooking')) {
+        echo '<div class="mps-booking-section">';
+        // Using wp_kses_post for safe HTML output from shortcode
+        echo wp_kses_post(do_shortcode('[ameliabooking]'));
+        echo '</div>';
+    } else {
+        // Fallback contact CTA if Amelia is not installed
+        echo '<div class="mps-booking-fallback">';
+        echo '<h3>' . esc_html__('Book Your Service', 'mps-theme') . '</h3>';
+        echo '<p>' . esc_html__('Contact us to schedule your cleaning or property service.', 'mps-theme') . '</p>';
+        echo '<a href="' . esc_url(home_url('/contact/')) . '" class="btn btn-primary">' . esc_html__('Get a Quote', 'mps-theme') . '</a>';
+        echo '</div>';
+    }
+}
+
+/**
+ * Check if testimonials plugin is active and display testimonials
+ * 
+ * @param int $count Number of testimonials to display
+ */
+function mps_show_testimonials($count = 6) {
+    // Check for various testimonial plugins
+    // Stars Testimonials plugin shortcode
+    if (shortcode_exists('developer-developer-developer')) {
+        // Using wp_kses_post for safe HTML output from shortcode
+        echo wp_kses_post(do_shortcode('[developer-developer-developer count="' . intval($count) . '"]'));
+    } elseif (shortcode_exists('testimonial')) {
+        // Strong Testimonials plugin shortcode
+        echo wp_kses_post(do_shortcode('[testimonial per_page="' . intval($count) . '"]'));
+    } else {
+        // Static testimonials fallback
+        mps_display_static_testimonials();
+    }
+}
+
+/**
+ * Display static testimonials as fallback
+ */
+function mps_display_static_testimonials() {
+    $testimonials = array(
+        array(
+            'name'    => 'Sarah M.',
+            'location' => 'Belconnen, ACT',
+            'rating'  => 5,
+            'content' => 'Merlin Property Services did an amazing job with our end of lease clean. We got our full bond back with no issues. Highly recommend!',
+        ),
+        array(
+            'name'    => 'James W.',
+            'location' => 'Queanbeyan, NSW',
+            'rating'  => 5,
+            'content' => "Professional, thorough, and on time. Our office has never looked better. We've signed up for weekly cleaning.",
+        ),
+        array(
+            'name'    => 'Michelle T.',
+            'location' => 'Gungahlin, ACT',
+            'rating'  => 5,
+            'content' => 'The carpet cleaning service transformed our carpets. They look brand new! Great value for money.',
+        ),
+    );
+
+    echo '<div class="mps-testimonials-grid">';
+    foreach ($testimonials as $testimonial) {
+        echo '<div class="mps-testimonial-card">';
+        echo '<div class="mps-testimonial-rating">';
+        for ($i = 0; $i < $testimonial['rating']; $i++) {
+            mps_icon('star', 'star-icon');
+        }
+        echo '</div>';
+        echo '<p class="mps-testimonial-content">"' . esc_html($testimonial['content']) . '"</p>';
+        echo '<div class="mps-testimonial-author">';
+        echo '<strong>' . esc_html($testimonial['name']) . '</strong>';
+        echo '<span>' . esc_html($testimonial['location']) . '</span>';
+        echo '</div>';
+        echo '</div>';
+    }
+    echo '</div>';
+}
+
+/**
+ * Check if NextGEN Gallery is active and display gallery
+ * 
+ * @param int    $gallery_id Gallery ID
+ * @param string $display    Display type
+ */
+function mps_show_gallery($gallery_id = 1, $display = 'basic_thumbnail') {
+    if (shortcode_exists('ngg')) {
+        // Using wp_kses_post for safe HTML output from shortcode
+        echo wp_kses_post(do_shortcode('[ngg src="galleries" ids="' . intval($gallery_id) . '" display="' . esc_attr($display) . '"]'));
+    }
+}
+
+/**
+ * Check if WP Google Maps is active and display map
+ * 
+ * @param int $map_id Map ID
+ */
+function mps_show_service_area_map($map_id = 1) {
+    if (shortcode_exists('wpgmza')) {
+        echo '<div class="mps-service-area-map">';
+        // Using wp_kses_post for safe HTML output from shortcode
+        echo wp_kses_post(do_shortcode('[wpgmza id="' . intval($map_id) . '"]'));
+        echo '</div>';
+    } else {
+        // Fallback map placeholder
+        echo '<div class="mps-map-placeholder">';
+        echo '<div class="mps-map-overlay">';
+        echo '<h4>' . esc_html__('Our Service Area', 'mps-theme') . '</h4>';
+        echo '<p>' . esc_html__('We proudly serve Canberra and surrounding areas including Belconnen, Gungahlin, Tuggeranong, Woden, and Queanbeyan.', 'mps-theme') . '</p>';
+        echo '</div>';
+        echo '</div>';
+    }
+}
+
+/**
+ * Add custom Customizer settings for plugin integration
+ * 
+ * @param WP_Customize_Manager $wp_customize Customizer manager
+ */
+function mps_plugin_customizer_settings($wp_customize) {
+    // Plugin Integration Section
+    $wp_customize->add_section('mps_plugin_integration', array(
+        'title'    => __('Plugin Integration', 'mps-theme'),
+        'priority' => 130,
+    ));
+
+    // Quote Form ID setting
+    $wp_customize->add_setting('mps_quote_form_id', array(
+        'default'           => '',
+        'sanitize_callback' => 'absint',
+    ));
+
+    $wp_customize->add_control('mps_quote_form_id', array(
+        'label'       => __('WPForms Quote Form ID', 'mps-theme'),
+        'description' => __('Enter the ID of your WPForms quote request form.', 'mps-theme'),
+        'section'     => 'mps_plugin_integration',
+        'type'        => 'number',
+    ));
+
+    // Contact Form ID setting
+    $wp_customize->add_setting('mps_contact_form_id', array(
+        'default'           => '',
+        'sanitize_callback' => 'absint',
+    ));
+
+    $wp_customize->add_control('mps_contact_form_id', array(
+        'label'       => __('WPForms Contact Form ID', 'mps-theme'),
+        'description' => __('Enter the ID of your WPForms contact form.', 'mps-theme'),
+        'section'     => 'mps_plugin_integration',
+        'type'        => 'number',
+    ));
+
+    // Gallery ID setting
+    $wp_customize->add_setting('mps_main_gallery_id', array(
+        'default'           => '1',
+        'sanitize_callback' => 'absint',
+    ));
+
+    $wp_customize->add_control('mps_main_gallery_id', array(
+        'label'       => __('NextGEN Main Gallery ID', 'mps-theme'),
+        'description' => __('Enter the ID of your main portfolio gallery.', 'mps-theme'),
+        'section'     => 'mps_plugin_integration',
+        'type'        => 'number',
+    ));
+
+    // Map ID setting
+    $wp_customize->add_setting('mps_service_area_map_id', array(
+        'default'           => '1',
+        'sanitize_callback' => 'absint',
+    ));
+
+    $wp_customize->add_control('mps_service_area_map_id', array(
+        'label'       => __('WP Google Maps ID', 'mps-theme'),
+        'description' => __('Enter the ID of your service area map.', 'mps-theme'),
+        'section'     => 'mps_plugin_integration',
+        'type'        => 'number',
+    ));
+}
+add_action('customize_register', 'mps_plugin_customizer_settings');
+
+/**
+ * Get recommended plugins list
+ * 
+ * @return array List of recommended plugins with details
+ */
+function mps_get_recommended_plugins() {
+    return array(
+        array(
+            'name'        => 'Amelia Lite',
+            'slug'        => 'ameliabooking',
+            'priority'    => 'high',
+            'description' => __('Online booking system for service appointments.', 'mps-theme'),
+        ),
+        array(
+            'name'        => 'WPForms Lite',
+            'slug'        => 'wpforms-lite',
+            'priority'    => 'high',
+            'description' => __('Drag & drop contact form builder.', 'mps-theme'),
+        ),
+        array(
+            'name'        => 'Yoast SEO',
+            'slug'        => 'wordpress-seo',
+            'priority'    => 'high',
+            'description' => __('Search engine optimization and local SEO.', 'mps-theme'),
+        ),
+        array(
+            'name'        => 'Stars Testimonials',
+            'slug'        => 'developer-developer-developer',
+            'priority'    => 'high',
+            'description' => __('Display customer testimonials with star ratings.', 'mps-theme'),
+        ),
+        array(
+            'name'        => 'NextGEN Gallery',
+            'slug'        => 'nextgen-gallery',
+            'priority'    => 'medium',
+            'description' => __('Photo gallery for before/after images.', 'mps-theme'),
+        ),
+        array(
+            'name'        => 'Tawk.to Live Chat',
+            'slug'        => 'tawkto-live-chat',
+            'priority'    => 'medium',
+            'description' => __('Free live chat for customer support.', 'mps-theme'),
+        ),
+        array(
+            'name'        => 'WP Google Maps',
+            'slug'        => 'wp-google-maps',
+            'priority'    => 'medium',
+            'description' => __('Display service area on interactive map.', 'mps-theme'),
+        ),
+        array(
+            'name'        => 'Wordfence Security',
+            'slug'        => 'wordfence',
+            'priority'    => 'medium',
+            'description' => __('Firewall and security scanning.', 'mps-theme'),
+        ),
+        array(
+            'name'        => 'LiteSpeed Cache',
+            'slug'        => 'litespeed-cache',
+            'priority'    => 'medium',
+            'description' => __('Page caching and performance optimization.', 'mps-theme'),
+        ),
+    );
+}

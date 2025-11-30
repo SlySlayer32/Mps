@@ -1,0 +1,565 @@
+/**
+ * MPS Plugin Integration Styles
+ *
+ * Custom styles to integrate recommended plugins with the MPS Theme design system.
+ *
+ * @package MPS_Plugin_Integration
+ * @version 1.0.0
+ */
+
+/* ==========================================================================
+   CSS Variables (matches MPS Theme)
+   ========================================================================== */
+:root {
+    --mps-primary-color: #FF9500;
+    --mps-primary-dark: #E68600;
+    --mps-primary-light: #FFB347;
+    --mps-secondary-color: #0066CC;
+    --mps-secondary-dark: #0052A3;
+    --mps-accent-color: #4DB8E8;
+    --mps-neutral-color: #6C757D;
+    --mps-white: #FFFFFF;
+    --mps-off-white: #F8F9FA;
+    --mps-light-gray: #E9ECEF;
+    --mps-dark-gray: #343A40;
+    --mps-black: #212529;
+    --mps-radius-sm: 4px;
+    --mps-radius-md: 8px;
+    --mps-radius-lg: 12px;
+    --mps-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+    --mps-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --mps-shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.15);
+    --mps-shadow-hover: 0 8px 30px rgba(255, 149, 0, 0.2);
+    --mps-transition-fast: 0.15s ease;
+    --mps-transition-normal: 0.3s ease;
+    --mps-font-primary: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --mps-font-body: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* ==========================================================================
+   Amelia Booking Plugin Styles
+   ========================================================================== */
+
+/* Wrapper styling */
+.mps-booking-wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Service cards */
+.amelia-app-booking .am-service-card {
+    border-radius: var(--mps-radius-lg) !important;
+    border: 1px solid var(--mps-light-gray) !important;
+    transition: all var(--mps-transition-normal) !important;
+    overflow: hidden;
+}
+
+.amelia-app-booking .am-service-card:hover {
+    border-color: var(--mps-primary-color) !important;
+    box-shadow: var(--mps-shadow-hover) !important;
+    transform: translateY(-4px);
+}
+
+/* Primary buttons */
+.amelia-app-booking .am-button,
+.amelia-app-booking button[class*="am-button"],
+.amelia-app-booking .am-button-primary {
+    background-color: var(--mps-primary-color) !important;
+    border-color: var(--mps-primary-color) !important;
+    border-radius: var(--mps-radius-md) !important;
+    font-family: var(--mps-font-primary) !important;
+    font-weight: 600 !important;
+    padding: 0.875rem 1.75rem !important;
+    transition: all var(--mps-transition-normal) !important;
+}
+
+.amelia-app-booking .am-button:hover,
+.amelia-app-booking button[class*="am-button"]:hover,
+.amelia-app-booking .am-button-primary:hover {
+    background-color: var(--mps-primary-dark) !important;
+    border-color: var(--mps-primary-dark) !important;
+    transform: translateY(-2px);
+}
+
+/* Secondary buttons */
+.amelia-app-booking .am-button-secondary {
+    background-color: var(--mps-secondary-color) !important;
+    border-color: var(--mps-secondary-color) !important;
+}
+
+.amelia-app-booking .am-button-secondary:hover {
+    background-color: var(--mps-secondary-dark) !important;
+    border-color: var(--mps-secondary-dark) !important;
+}
+
+/* Input fields */
+.amelia-app-booking input[type="text"],
+.amelia-app-booking input[type="email"],
+.amelia-app-booking input[type="tel"],
+.amelia-app-booking input[type="number"],
+.amelia-app-booking select,
+.amelia-app-booking textarea {
+    border-radius: var(--mps-radius-md) !important;
+    border: 2px solid var(--mps-light-gray) !important;
+    padding: 0.875rem 1rem !important;
+    font-family: var(--mps-font-body) !important;
+    transition: border-color var(--mps-transition-fast) !important;
+}
+
+.amelia-app-booking input:focus,
+.amelia-app-booking select:focus,
+.amelia-app-booking textarea:focus {
+    border-color: var(--mps-primary-color) !important;
+    outline: none !important;
+    box-shadow: 0 0 0 3px rgba(255, 149, 0, 0.1) !important;
+}
+
+/* Calendar styling */
+.amelia-app-booking .am-calendar {
+    border-radius: var(--mps-radius-lg) !important;
+    box-shadow: var(--mps-shadow-md) !important;
+}
+
+.amelia-app-booking .am-calendar .am-day-selected {
+    background-color: var(--mps-primary-color) !important;
+}
+
+.amelia-app-booking .am-calendar .am-day:hover {
+    background-color: rgba(255, 149, 0, 0.1) !important;
+}
+
+/* Step indicators */
+.amelia-app-booking .am-step-indicator.active {
+    background-color: var(--mps-primary-color) !important;
+}
+
+/* ==========================================================================
+   WPForms Plugin Styles
+   ========================================================================== */
+
+/* Form wrapper */
+.mps-form-wrapper {
+    max-width: 100%;
+}
+
+/* Form container */
+.wpforms-container .wpforms-form {
+    font-family: var(--mps-font-body);
+}
+
+/* Form fields */
+.wpforms-container .wpforms-form input[type="text"],
+.wpforms-container .wpforms-form input[type="email"],
+.wpforms-container .wpforms-form input[type="tel"],
+.wpforms-container .wpforms-form input[type="url"],
+.wpforms-container .wpforms-form input[type="number"],
+.wpforms-container .wpforms-form input[type="date"],
+.wpforms-container .wpforms-form select,
+.wpforms-container .wpforms-form textarea {
+    border-radius: var(--mps-radius-md) !important;
+    border: 2px solid var(--mps-light-gray) !important;
+    padding: 0.875rem 1rem !important;
+    font-family: var(--mps-font-body) !important;
+    font-size: 1rem !important;
+    background-color: var(--mps-off-white) !important;
+    transition: all var(--mps-transition-fast) !important;
+    width: 100% !important;
+}
+
+.wpforms-container .wpforms-form input:focus,
+.wpforms-container .wpforms-form select:focus,
+.wpforms-container .wpforms-form textarea:focus {
+    border-color: var(--mps-primary-color) !important;
+    background-color: var(--mps-white) !important;
+    outline: none !important;
+    box-shadow: 0 0 0 3px rgba(255, 149, 0, 0.1) !important;
+}
+
+/* Labels */
+.wpforms-container .wpforms-form .wpforms-field-label {
+    font-family: var(--mps-font-primary) !important;
+    font-weight: 500 !important;
+    color: var(--mps-dark-gray) !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.wpforms-container .wpforms-form .wpforms-required-label {
+    color: #dc3545 !important;
+}
+
+/* Submit button */
+.wpforms-container .wpforms-form button[type="submit"],
+.wpforms-container .wpforms-form .wpforms-submit {
+    background-color: var(--mps-primary-color) !important;
+    border: none !important;
+    border-radius: var(--mps-radius-md) !important;
+    padding: 0.875rem 2rem !important;
+    font-family: var(--mps-font-primary) !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    color: var(--mps-white) !important;
+    cursor: pointer !important;
+    transition: all var(--mps-transition-normal) !important;
+}
+
+.wpforms-container .wpforms-form button[type="submit"]:hover,
+.wpforms-container .wpforms-form .wpforms-submit:hover {
+    background-color: var(--mps-primary-dark) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: var(--mps-shadow-hover) !important;
+}
+
+/* Error messages */
+.wpforms-container .wpforms-form .wpforms-error {
+    border-color: #dc3545 !important;
+}
+
+.wpforms-container .wpforms-form label.wpforms-error {
+    color: #dc3545 !important;
+    font-size: 0.875rem !important;
+    margin-top: 0.25rem !important;
+}
+
+/* Success message */
+.wpforms-container .wpforms-confirmation-container-full {
+    background-color: rgba(40, 167, 69, 0.1) !important;
+    border: 1px solid #28a745 !important;
+    border-radius: var(--mps-radius-md) !important;
+    padding: 1.5rem !important;
+    color: #155724 !important;
+}
+
+/* ==========================================================================
+   Stars Testimonials Plugin Styles
+   ========================================================================== */
+
+/* Testimonial card */
+.developer-developer-developer__item,
+[class*="developer-developer-developer"],
+[class*="testimonial-card"] {
+    background-color: var(--mps-white) !important;
+    border-radius: var(--mps-radius-lg) !important;
+    box-shadow: var(--mps-shadow-md) !important;
+    padding: 2rem !important;
+    transition: all var(--mps-transition-normal) !important;
+}
+
+.developer-developer-developer__item:hover,
+[class*="developer-developer-developer"]:hover,
+[class*="testimonial-card"]:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: var(--mps-shadow-lg) !important;
+}
+
+/* Star ratings */
+.developer-developer-developer .developer-developer-developer__stars .developer-developer-developer__star,
+[class*="testimonial"] .star-rating .star,
+[class*="testimonial"] .fa-star,
+[class*="testimonial"] .dashicons-star-filled {
+    color: var(--mps-primary-color) !important;
+}
+
+/* Author info */
+.developer-developer-developer .developer-developer-developer__author,
+[class*="testimonial"] .testimonial-author {
+    font-family: var(--mps-font-primary) !important;
+    font-weight: 600 !important;
+    color: var(--mps-dark-gray) !important;
+}
+
+/* Testimonial text */
+.developer-developer-developer .developer-developer-developer__content,
+[class*="testimonial"] .testimonial-text {
+    font-family: var(--mps-font-body) !important;
+    color: var(--mps-neutral-color) !important;
+    line-height: 1.7 !important;
+}
+
+/* Slider navigation */
+[class*="testimonial"] .slick-prev,
+[class*="testimonial"] .slick-next,
+[class*="testimonial"] .swiper-button-prev,
+[class*="testimonial"] .swiper-button-next {
+    background-color: var(--mps-primary-color) !important;
+    border-radius: 50% !important;
+    width: 44px !important;
+    height: 44px !important;
+}
+
+[class*="testimonial"] .slick-dots li.slick-active button,
+[class*="testimonial"] .swiper-pagination-bullet-active {
+    background-color: var(--mps-primary-color) !important;
+}
+
+/* ==========================================================================
+   NextGEN Gallery Plugin Styles
+   ========================================================================== */
+
+/* Gallery wrapper */
+.mps-gallery-wrapper {
+    max-width: 100%;
+}
+
+/* Thumbnail box */
+.ngg-gallery-thumbnail-box,
+.ngg-galleryoverview .ngg-gallery-thumbnail {
+    border-radius: var(--mps-radius-md) !important;
+    overflow: hidden !important;
+    transition: all var(--mps-transition-normal) !important;
+}
+
+.ngg-gallery-thumbnail-box:hover,
+.ngg-galleryoverview .ngg-gallery-thumbnail:hover {
+    box-shadow: var(--mps-shadow-hover) !important;
+    transform: scale(1.02) !important;
+}
+
+/* Gallery thumbnails */
+.ngg-gallery-thumbnail img {
+    border-radius: var(--mps-radius-md) !important;
+    transition: all var(--mps-transition-normal) !important;
+}
+
+/* Lightbox styling */
+.ngg-fancybox-container,
+.ngg-overlay {
+    background: rgba(0, 0, 0, 0.9) !important;
+}
+
+/* Album styling */
+.ngg-albumoverview {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+    gap: 1.5rem !important;
+}
+
+/* Before/After gallery specific */
+.mps-before-after-gallery {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.mps-before-after-gallery.columns-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.mps-before-after-gallery.columns-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.mps-before-after-gallery.columns-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 767px) {
+    .mps-before-after-gallery.columns-2,
+    .mps-before-after-gallery.columns-3,
+    .mps-before-after-gallery.columns-4 {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ==========================================================================
+   Tawk.to Live Chat Plugin Styles
+   ========================================================================== */
+
+/* Chat widget container - positioning */
+#tawkchat-container,
+.tawk-min-container {
+    z-index: 999 !important;
+}
+
+/* Custom chat widget styling via Tawk.to dashboard:
+   - Widget Color: #FF9500
+   - Header Background: #0066CC
+   - Position: Bottom Right
+*/
+
+/* ==========================================================================
+   WP Google Maps Plugin Styles
+   ========================================================================== */
+
+/* Map container */
+.wpgmza_map,
+.wpgmza-map {
+    border-radius: var(--mps-radius-lg) !important;
+    overflow: hidden !important;
+    box-shadow: var(--mps-shadow-md) !important;
+}
+
+/* Info window */
+.wpgmza-info-window,
+.wpgmza_infowindow {
+    font-family: var(--mps-font-body) !important;
+    border-radius: var(--mps-radius-md) !important;
+}
+
+.wpgmza-info-window h4,
+.wpgmza_infowindow h4 {
+    font-family: var(--mps-font-primary) !important;
+    color: var(--mps-dark-gray) !important;
+}
+
+/* Map controls */
+.wpgmza_map .gm-style-cc,
+.wpgmza_map .gmnoprint {
+    border-radius: var(--mps-radius-sm) !important;
+}
+
+/* ==========================================================================
+   Wordfence Security Plugin Styles (Admin)
+   ========================================================================== */
+
+/* Login page reCAPTCHA alignment */
+.wfls-container {
+    margin-top: 1rem;
+}
+
+/* ==========================================================================
+   LiteSpeed Cache Plugin Styles
+   ========================================================================== */
+
+/* No frontend styles needed - LiteSpeed is backend only */
+
+/* ==========================================================================
+   Yoast SEO Plugin Styles
+   ========================================================================== */
+
+/* Breadcrumbs */
+.yoast-breadcrumbs,
+#breadcrumbs {
+    font-family: var(--mps-font-body) !important;
+    font-size: 0.875rem !important;
+    color: var(--mps-neutral-color) !important;
+    padding: 1rem 0 !important;
+}
+
+.yoast-breadcrumbs a,
+#breadcrumbs a {
+    color: var(--mps-secondary-color) !important;
+    text-decoration: none !important;
+}
+
+.yoast-breadcrumbs a:hover,
+#breadcrumbs a:hover {
+    color: var(--mps-primary-color) !important;
+}
+
+/* ==========================================================================
+   General Plugin Integration Utilities
+   ========================================================================== */
+
+/* Ensure consistent button styling across all plugins */
+.mps-plugin-btn,
+.mps-booking-wrapper .button,
+.mps-form-wrapper .button,
+.mps-gallery-wrapper .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.875rem 1.75rem;
+    font-family: var(--mps-font-primary);
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: var(--mps-radius-md);
+    cursor: pointer;
+    transition: all var(--mps-transition-normal);
+    min-height: 44px;
+    min-width: 44px;
+}
+
+/* Primary plugin button */
+.mps-plugin-btn--primary {
+    background-color: var(--mps-primary-color);
+    color: var(--mps-white);
+    border-color: var(--mps-primary-color);
+}
+
+.mps-plugin-btn--primary:hover {
+    background-color: var(--mps-primary-dark);
+    border-color: var(--mps-primary-dark);
+    transform: translateY(-2px);
+    box-shadow: var(--mps-shadow-hover);
+}
+
+/* Secondary plugin button */
+.mps-plugin-btn--secondary {
+    background-color: var(--mps-secondary-color);
+    color: var(--mps-white);
+    border-color: var(--mps-secondary-color);
+}
+
+.mps-plugin-btn--secondary:hover {
+    background-color: var(--mps-secondary-dark);
+    border-color: var(--mps-secondary-dark);
+    transform: translateY(-2px);
+}
+
+/* Loading state for plugin elements */
+.mps-plugin-loading {
+    position: relative;
+    pointer-events: none;
+}
+
+.mps-plugin-loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin: -12px 0 0 -12px;
+    border: 3px solid var(--mps-light-gray);
+    border-top-color: var(--mps-primary-color);
+    border-radius: 50%;
+    animation: mps-spin 1s linear infinite;
+}
+
+@keyframes mps-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Plugin section containers */
+.mps-plugin-section {
+    padding: 4rem 0;
+}
+
+.mps-plugin-section--alt {
+    background-color: var(--mps-off-white);
+}
+
+/* Responsive adjustments for plugins */
+@media (max-width: 991px) {
+    .mps-before-after-gallery.columns-3,
+    .mps-before-after-gallery.columns-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .wpforms-container .wpforms-form button[type="submit"],
+    .wpforms-container .wpforms-form .wpforms-submit,
+    .amelia-app-booking .am-button {
+        width: 100% !important;
+    }
+    
+    .mps-before-after-gallery.columns-2,
+    .mps-before-after-gallery.columns-3,
+    .mps-before-after-gallery.columns-4 {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Print styles for plugin content */
+@media print {
+    .mps-booking-wrapper,
+    #tawkchat-container,
+    .tawk-min-container {
+        display: none !important;
+    }
+}
