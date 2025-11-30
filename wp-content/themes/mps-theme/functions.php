@@ -849,9 +849,9 @@ function mps_show_testimonials($count = 6) {
     if (shortcode_exists('developer-developer-developer')) {
         // Using wp_kses_post for safe HTML output from shortcode
         echo wp_kses_post(do_shortcode('[developer-developer-developer count="' . intval($count) . '"]'));
-    } elseif (shortcode_exists('developer-developer-developer')) {
+    } elseif (shortcode_exists('testimonial')) {
         // Strong Testimonials plugin shortcode
-        echo wp_kses_post(do_shortcode('[developer-developer-developer-developer per_page="' . intval($count) . '"]'));
+        echo wp_kses_post(do_shortcode('[testimonial per_page="' . intval($count) . '"]'));
     } else {
         // Static testimonials fallback
         mps_display_static_testimonials();
@@ -873,7 +873,7 @@ function mps_display_static_testimonials() {
             'name'    => 'James W.',
             'location' => 'Queanbeyan, NSW',
             'rating'  => 5,
-            'content' => 'Professional, thorough, and on time. Our office has never looked better. We\'ve signed up for weekly cleaning.',
+            'content' => "Professional, thorough, and on time. Our office has never looked better. We've signed up for weekly cleaning.",
         ),
         array(
             'name'    => 'Michelle T.',

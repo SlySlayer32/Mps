@@ -19,7 +19,7 @@ if (!defined('ABSPATH')) {
     <div class="container">
         <div class="section-header">
             <h2><?php esc_html_e('What Our Customers Say', 'mps-theme'); ?></h2>
-            <p><?php esc_html_e('Don\'t just take our word for it - hear from our satisfied customers across Canberra and Queanbeyan.', 'mps-theme'); ?></p>
+            <p><?php esc_html_e("Don't just take our word for it - hear from our satisfied customers across Canberra and Queanbeyan.", 'mps-theme'); ?></p>
         </div>
 
         <div class="testimonials-content">

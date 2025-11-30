@@ -149,7 +149,7 @@ class MPS_Plugin_Integration {
         
         $shortcode .= ']';
 
-        return '<div class="mps-booking-wrapper">' . do_shortcode($shortcode) . '</div>';
+        return '<div class="mps-booking-wrapper">' . wp_kses_post(do_shortcode($shortcode)) . '</div>';
     }
 
     /**

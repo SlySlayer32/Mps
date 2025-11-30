@@ -234,8 +234,8 @@
    ========================================================================== */
 
 /* Testimonial card */
-.starter-starter-testimonial,
-.developer-developer-testimonial,
+.developer-developer-developer__item,
+[class*="developer-developer-developer"],
 [class*="testimonial-card"] {
     background-color: var(--mps-white) !important;
     border-radius: var(--mps-radius-lg) !important;
@@ -244,16 +244,15 @@
     transition: all var(--mps-transition-normal) !important;
 }
 
-.starter-starter-testimonial:hover,
-.developer-developer-testimonial:hover,
+.developer-developer-developer__item:hover,
+[class*="developer-developer-developer"]:hover,
 [class*="testimonial-card"]:hover {
     transform: translateY(-5px) !important;
     box-shadow: var(--mps-shadow-lg) !important;
 }
 
 /* Star ratings */
-.starter-starter-testimonial .star-rating .star,
-.developer-developer-testimonial .star-rating .star,
+.developer-developer-developer .developer-developer-developer__stars .developer-developer-developer__star,
 [class*="testimonial"] .star-rating .star,
 [class*="testimonial"] .fa-star,
 [class*="testimonial"] .dashicons-star-filled {
@@ -261,8 +260,7 @@
 }
 
 /* Author info */
-.starter-starter-testimonial .author-name,
-.developer-developer-testimonial .author-name,
+.developer-developer-developer .developer-developer-developer__author,
 [class*="testimonial"] .testimonial-author {
     font-family: var(--mps-font-primary) !important;
     font-weight: 600 !important;
@@ -270,8 +268,7 @@
 }
 
 /* Testimonial text */
-.starter-starter-testimonial .testimonial-content,
-.developer-developer-testimonial .testimonial-content,
+.developer-developer-developer .developer-developer-developer__content,
 [class*="testimonial"] .testimonial-text {
     font-family: var(--mps-font-body) !important;
     color: var(--mps-neutral-color) !important;

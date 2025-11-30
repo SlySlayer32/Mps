@@ -49,8 +49,7 @@ $display_type = isset($args['display']) ? sanitize_text_field($args['display']) 
             <!-- NextGEN Gallery output -->
             <div class="gallery-content">
                 <?php
-                // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Shortcode output
-                echo do_shortcode('[ngg src="galleries" ids="' . intval($gallery_id) . '" display="' . esc_attr($display_type) . '"]');
+                echo wp_kses_post(do_shortcode('[ngg src="galleries" ids="' . intval($gallery_id) . '" display="' . esc_attr($display_type) . '"]'));
                 ?>
             </div>
 

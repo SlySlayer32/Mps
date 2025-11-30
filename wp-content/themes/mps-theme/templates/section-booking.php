@@ -41,16 +41,14 @@ $service = isset($args['service']) ? sanitize_text_field($args['service']) : '';
                 $shortcode .= ']';
                 
                 echo '<div class="mps-booking-wrapper">';
-                // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Shortcode output
-                echo do_shortcode($shortcode);
+                echo wp_kses_post(do_shortcode($shortcode));
                 echo '</div>';
             } elseif (shortcode_exists('wpforms')) {
                 // Fallback to WPForms if Amelia is not available
                 $form_id = get_theme_mod('mps_quote_form_id', '');
                 if (!empty($form_id)) {
                     echo '<div class="mps-quote-form-wrapper">';
-                    // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Shortcode output
-                    echo do_shortcode('[wpforms id="' . intval($form_id) . '"]');
+                    echo wp_kses_post(do_shortcode('[wpforms id="' . intval($form_id) . '"]'));
                     echo '</div>';
                 } else {
                     mps_display_booking_fallback();
@@ -100,7 +98,7 @@ function mps_display_booking_fallback() {
                 <?php mps_icon('calendar', 'fallback-icon'); ?>
             </div>
             <h3><?php esc_html_e('Ready to Book?', 'mps-theme'); ?></h3>
-            <p><?php esc_html_e('Contact us today to schedule your cleaning or property service. We\'ll get back to you within 24 hours with a free, no-obligation quote.', 'mps-theme'); ?></p>
+            <p><?php esc_html_e("Contact us today to schedule your cleaning or property service. We'll get back to you within 24 hours with a free, no-obligation quote.", 'mps-theme'); ?></p>
             
             <div class="booking-contact-options">
                 <a href="tel:0261000000" class="btn btn-primary btn-lg">

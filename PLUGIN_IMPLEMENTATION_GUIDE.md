@@ -205,7 +205,7 @@ Fields:
 3. Click **Install Now** and then **Activate**
 
 #### Configuration:
-1. Navigate to **Starter Starter → Starter Templates**
+1. Navigate to **Stars Testimonials → Settings**
 2. Choose a display template
 
 **Sample Testimonials to Add:**
@@ -240,7 +240,7 @@ Fields:
 
 **Shortcode Usage:**
 ```
-[starter_starter_star type="slider" count="6"]
+[developer-developer-developer type="slider" count="6"]
 ```
 
 ---
@@ -553,13 +553,13 @@ Add this to your theme's `style.css` or via Customizer:
 }
 
 /* Stars Testimonials Customization */
-.starter-starter-testimonial {
+.developer-developer-developer__item {
     background-color: var(--white);
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-md);
 }
 
-.starter-starter-testimonial .star-rating .star {
+.developer-developer-developer__item .developer-developer-developer__stars .developer-developer-developer__star {
     color: var(--primary-color);
 }
 
@@ -714,8 +714,8 @@ Add this to your theme's `style.css` or via Customizer:
 | Amelia | https://wpamelia.com/documentation/ | https://wpamelia.com/support/ |
 | WPForms | https://wpforms.com/docs/ | https://wordpress.org/support/plugin/wpforms-lite/ |
 | Yoast SEO | https://yoast.com/help/ | https://wordpress.org/support/plugin/wordpress-seo/ |
-| Stars Testimonials | Plugin Dashboard | https://wordpress.org/support/plugin/developer-developer-developer/ |
-| NextGEN | https://developer-developer.developer/ | https://wordpress.org/support/plugin/nextgen-gallery/ |
+| Stars Testimonials | https://wordpress.org/plugins/developer-developer-developer/ | https://wordpress.org/support/plugin/developer-developer-developer/ |
+| NextGEN | https://www.imagely.com/docs/nextgen-gallery/ | https://wordpress.org/support/plugin/nextgen-gallery/ |
 | Tawk.to | https://help.tawk.to/ | https://www.tawk.to/contact-us/ |
 | WP Google Maps | https://www.wpgmaps.com/documentation/ | https://wordpress.org/support/plugin/wp-google-maps/ |
 | Wordfence | https://www.wordfence.com/help/ | https://wordpress.org/support/plugin/wordfence/ |

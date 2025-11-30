@@ -35,8 +35,7 @@ $map_id = get_theme_mod('mps_service_area_map_id', 1);
              */
             if (shortcode_exists('wpgmza')) {
                 echo '<div class="mps-map-container">';
-                // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Shortcode output
-                echo do_shortcode('[wpgmza id="' . intval($map_id) . '"]');
+                echo wp_kses_post(do_shortcode('[wpgmza id="' . intval($map_id) . '"]'));
                 echo '</div>';
             } else {
                 // Static fallback map placeholder
@@ -61,7 +60,7 @@ $map_id = get_theme_mod('mps_service_area_map_id', 1);
                 $service_areas = array(
                     'canberra-central' => array(
                         'name' => __('Canberra Central', 'mps-theme'),
-                        'suburbs' => array('Civic', 'Braddon', 'Reid', 'Acton', 'Turner', 'O\'Connor', 'Lyneham', 'Dickson'),
+                        'suburbs' => array('Civic', 'Braddon', 'Reid', 'Acton', 'Turner', "O'Connor", 'Lyneham', 'Dickson'),
                     ),
                     'belconnen' => array(
                         'name' => __('Belconnen', 'mps-theme'),
@@ -114,7 +113,7 @@ $map_id = get_theme_mod('mps_service_area_map_id', 1);
             <div class="service-area-note">
                 <p>
                     <?php mps_icon('check', 'note-icon'); ?>
-                    <?php esc_html_e('Can\'t see your suburb? Contact us - we likely service your area too!', 'mps-theme'); ?>
+                    <?php esc_html_e("Can't see your suburb? Contact us - we likely service your area too!", 'mps-theme'); ?>
                 </p>
                 <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="btn btn-outline">
                     <?php esc_html_e('Check Availability', 'mps-theme'); ?>
