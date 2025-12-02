@@ -265,10 +265,13 @@ Follow the `PLUGIN_IMPLEMENTATION_GUIDE.md` for detailed configuration. Here's a
 #### Domain Pointing
 
 1. **Point Domain to IONOS**
-   - If your domain is registered elsewhere, update nameservers to IONOS:
-     - Primary: `ns1071.ui-dns.com`
-     - Secondary: `ns1071.ui-dns.de`
-   - Or use IONOS domain management if registered there
+   - If your domain is registered elsewhere:
+     - Log into IONOS Control Panel
+     - Go to "Domains & SSL" → Select your domain
+     - Look for "Nameservers" or "DNS Settings"
+     - Your specific nameserver addresses will be displayed there
+     - Copy these addresses to your domain registrar's nameserver settings
+   - If your domain is registered with IONOS, DNS is configured automatically
 
 2. **Wait for Propagation**
    - DNS changes can take 24-48 hours to propagate worldwide
